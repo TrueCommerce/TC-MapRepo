@@ -154,7 +154,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="master_system" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_applications" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="discount_applications" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2000" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="type" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="value" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -165,20 +165,20 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_codes" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="discount_codes" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2001" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="code" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="amount" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="type" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="note_attributes" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="note_attributes" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2002" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="payment_gateway_names" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="payment_gateway_names" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2003" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
@@ -375,12 +375,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_allocations" Description="orders\line_items\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="28">
+        <Row Name="discount_allocations" Description="orders\line_items\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2004" ParentLoopIDToken="1135" ChildOf="28">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tax_lines" Description="orders\line_items\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="0" ChildOf="28">
+        <Row Name="tax_lines" Description="orders\line_items\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="1135" ChildOf="28">
           <Columns>
             <Column Title="title" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="price" DataType="5" SubType="2" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -453,12 +453,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_allocations" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="41">
+        <Row Name="discount_allocations" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2005" ParentLoopIDToken="1155" ChildOf="41">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tax_lines" Description="orders\shipping_lines\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1158" ParentLoopIDToken="0" ChildOf="41">
+        <Row Name="tax_lines" Description="orders\shipping_lines\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1158" ParentLoopIDToken="1155" ChildOf="41">
           <Columns>
             <Column Title="price" DataType="5" SubType="2" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="rate" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -518,7 +518,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="province_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="fulfillments" Description="orders\fulfillments" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="fulfillments" Description="orders\fulfillments" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2006" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="order_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -535,12 +535,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tracking_numbers" Description="orders\fulfillments\tracking_numbers" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="55">
+        <Row Name="tracking_numbers" Description="orders\fulfillments\tracking_numbers" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2007" ParentLoopIDToken="2006" ChildOf="55">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tracking_urls" Description="orders\fulfillments\tracking_urls" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="55">
+        <Row Name="tracking_urls" Description="orders\fulfillments\tracking_urls" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2008" ParentLoopIDToken="2006" ChildOf="55">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
@@ -551,7 +551,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="authorization" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="line_items" Description="orders\fulfillments\line_items" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="55">
+        <Row Name="line_items" Description="orders\fulfillments\line_items" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2009" ParentLoopIDToken="2006" ChildOf="55">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="variant_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -594,12 +594,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_allocations" Description="orders\fulfillments\line_items\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="59">
+        <Row Name="discount_allocations" Description="orders\fulfillments\line_items\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2010" ParentLoopIDToken="2009" ChildOf="59">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tax_lines" Description="orders\fulfillments\line_items\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="0" ChildOf="59">
+        <Row Name="tax_lines" Description="orders\fulfillments\line_items\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="2009" ChildOf="59">
           <Columns>
             <Column Title="title" DataType="5" SubType="2" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="price" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -658,7 +658,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="browser_height" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="refunds" Description="orders\refunds" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="refunds" Description="orders\refunds" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2011" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="order_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -758,12 +758,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="discount_allocations" Description="orders\refunds\refund_line_items\line_item\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="81">
+        <Row Name="discount_allocations" Description="orders\refunds\refund_line_items\line_item\discount_allocations" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2012" ParentLoopIDToken="2011" ChildOf="81">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="tax_lines" Description="orders\refunds\refund_line_items\line_item\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="0" ChildOf="81">
+        <Row Name="tax_lines" Description="orders\refunds\refund_line_items\line_item\tax_lines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1156" ParentLoopIDToken="2011" ChildOf="81">
           <Columns>
             <Column Title="title" DataType="5" SubType="2" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="price" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -812,7 +812,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="transactions" Description="orders\refunds\transactions" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="73">
+        <Row Name="transactions" Description="orders\refunds\transactions" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2013" ParentLoopIDToken="2011" ChildOf="73">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="order_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -840,7 +840,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="order_adjustments" Description="orders\refunds\order_adjustments" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="73">
+        <Row Name="order_adjustments" Description="orders\refunds\order_adjustments" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2014" ParentLoopIDToken="2011" ChildOf="73">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
@@ -957,26 +957,26 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:2.51 order.admin_graphql_api_id]" LoopIDToken="0" ID="20051" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.52 order.document_id]" LoopIDToken="0" ID="20052" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.53 order.master_system]" LoopIDToken="0" ID="20053" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.1 discount_applications.type]" LoopIDToken="1999" ID="30001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.2 discount_applications.value]" LoopIDToken="1999" ID="30002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.3 discount_applications.value_type]" LoopIDToken="1999" ID="30003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.4 discount_applications.allocation_method]" LoopIDToken="1999" ID="30004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.5 discount_applications.target_selection]" LoopIDToken="1999" ID="30005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.6 discount_applications.target_type]" LoopIDToken="1999" ID="30006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.7 discount_applications.code]" LoopIDToken="1999" ID="30007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.1 discount_codes.code]" LoopIDToken="2000" ID="40001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.2 discount_codes.amount]" LoopIDToken="2000" ID="40002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.3 discount_codes.type]" LoopIDToken="2000" ID="40003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.1 note_attributes.name]" LoopIDToken="2001" ID="50001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.2 note_attributes.value]" LoopIDToken="2001" ID="50002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:6.1 payment_gateway_names.Column]" LoopIDToken="2002" ID="60001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:7.1 tax_lines.price]" LoopIDToken="2003" ID="70001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:7.2 tax_lines.rate]" LoopIDToken="2003" ID="70002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:7.3 tax_lines.title]" LoopIDToken="2003" ID="70003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:9.1 shop_money.amount]" LoopIDToken="2003" ID="90001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:9.2 shop_money.currency_code]" LoopIDToken="2003" ID="90002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.1 presentment_money.amount]" LoopIDToken="2003" ID="100001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:10.2 presentment_money.currency_code]" LoopIDToken="2003" ID="100002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.1 discount_applications.type]" LoopIDToken="2000" ID="30001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.2 discount_applications.value]" LoopIDToken="2000" ID="30002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.3 discount_applications.value_type]" LoopIDToken="2000" ID="30003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.4 discount_applications.allocation_method]" LoopIDToken="2000" ID="30004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.5 discount_applications.target_selection]" LoopIDToken="2000" ID="30005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.6 discount_applications.target_type]" LoopIDToken="2000" ID="30006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.7 discount_applications.code]" LoopIDToken="2000" ID="30007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.1 discount_codes.code]" LoopIDToken="2001" ID="40001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.2 discount_codes.amount]" LoopIDToken="2001" ID="40002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.3 discount_codes.type]" LoopIDToken="2001" ID="40003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.1 note_attributes.name]" LoopIDToken="2002" ID="50001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.2 note_attributes.value]" LoopIDToken="2002" ID="50002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.1 payment_gateway_names.Column]" LoopIDToken="2003" ID="60001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:7.1 tax_lines.price]" LoopIDToken="1158" ID="70001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:7.2 tax_lines.rate]" LoopIDToken="1158" ID="70002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:7.3 tax_lines.title]" LoopIDToken="1158" ID="70003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.1 shop_money.amount]" LoopIDToken="1158" ID="90001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:9.2 shop_money.currency_code]" LoopIDToken="1158" ID="90002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.1 presentment_money.amount]" LoopIDToken="1158" ID="100001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:10.2 presentment_money.currency_code]" LoopIDToken="1158" ID="100002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:11.1 total_line_items_price_set.Column]" LoopIDToken="0" ID="110001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:12.1 shop_money.amount]" LoopIDToken="0" ID="120001" DataType="5" SubType="2" Size="0" />
         <Value CalcStr="[R:12.2 shop_money.currency_code]" LoopIDToken="0" ID="120002" DataType="0" SubType="0" Size="0" />
@@ -1007,80 +1007,80 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:27.2 shop_money.currency_code]" LoopIDToken="0" ID="270002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:28.1 presentment_money.amount]" LoopIDToken="0" ID="280001" DataType="5" SubType="2" Size="0" />
         <Value CalcStr="[R:28.2 presentment_money.currency_code]" LoopIDToken="0" ID="280002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.1 line_items.id]" LoopIDToken="2004" ID="290001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.2 line_items.variant_id]" LoopIDToken="2004" ID="290002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.3 line_items.title]" LoopIDToken="2004" ID="290003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.4 line_items.quantity]" LoopIDToken="2004" ID="290004" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.5 line_items.sku]" LoopIDToken="2004" ID="290005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.6 line_items.variant_title]" LoopIDToken="2004" ID="290006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.7 line_items.vendor]" LoopIDToken="2004" ID="290007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.8 line_items.fulfillment_service]" LoopIDToken="2004" ID="290008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.9 line_items.product_id]" LoopIDToken="2004" ID="290009" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.10 line_items.requires_shipping]" LoopIDToken="2004" ID="290010" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:29.11 line_items.taxable]" LoopIDToken="2004" ID="290011" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:29.12 line_items.gift_card]" LoopIDToken="2004" ID="290012" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:29.13 line_items.name]" LoopIDToken="2004" ID="290013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.14 line_items.variant_inventory_management]" LoopIDToken="2004" ID="290014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.15 line_items.product_exists]" LoopIDToken="2004" ID="290015" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:29.16 line_items.fulfillable_quantity]" LoopIDToken="2004" ID="290016" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.17 line_items.grams]" LoopIDToken="2004" ID="290017" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.18 line_items.price]" LoopIDToken="2004" ID="290018" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:29.19 line_items.total_discount]" LoopIDToken="2004" ID="290019" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:29.20 line_items.fulfillment_status]" LoopIDToken="2004" ID="290020" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.21 line_items.admin_graphql_api_id]" LoopIDToken="2004" ID="290021" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:29.22 line_items.item_description]" LoopIDToken="2004" ID="290022" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:30.1 properties.name]" LoopIDToken="2004" ID="300001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:30.2 properties.value]" LoopIDToken="2004" ID="300002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:31.1 price_set.amount]" LoopIDToken="2004" ID="310001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:31.2 price_set.currency_code]" LoopIDToken="2004" ID="310002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:32.1 shop_money.amount]" LoopIDToken="2004" ID="320001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:32.2 shop_money.currency_code]" LoopIDToken="2004" ID="320002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:33.1 presentment_money.amount]" LoopIDToken="2004" ID="330001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:33.2 presentment_money.currency_code]" LoopIDToken="2004" ID="330002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:34.1 total_discount_set.amount]" LoopIDToken="2004" ID="340001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:34.2 total_discount_set.currency_code]" LoopIDToken="2004" ID="340002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:35.1 shop_money.amount]" LoopIDToken="2004" ID="350001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:35.2 shop_money.currency_code]" LoopIDToken="2004" ID="350002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:36.1 presentment_money.amount]" LoopIDToken="2004" ID="360001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:36.2 presentment_money.currency_code]" LoopIDToken="2004" ID="360002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:37.1 discount_allocations.Column]" LoopIDToken="2005" ID="370001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:38.1 tax_lines.title]" LoopIDToken="2006" ID="380001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:38.2 tax_lines.price]" LoopIDToken="2006" ID="380002" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:38.3 tax_lines.rate]" LoopIDToken="2006" ID="380003" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:39.1 price_set.amount]" LoopIDToken="2006" ID="390001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:39.2 price_set.currency_code]" LoopIDToken="2006" ID="390002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:40.1 shop_money.amount]" LoopIDToken="2006" ID="400001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:40.2 shop_money.currency_code]" LoopIDToken="2006" ID="400002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:41.1 presentment_money.amount]" LoopIDToken="2006" ID="410001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:41.2 presentment_money.currency_code]" LoopIDToken="2006" ID="410002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.1 shipping_lines.id]" LoopIDToken="2007" ID="420001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.2 shipping_lines.title]" LoopIDToken="2007" ID="420002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.3 shipping_lines.price]" LoopIDToken="2007" ID="420003" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:42.4 shipping_lines.code]" LoopIDToken="2007" ID="420004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.5 shipping_lines.source]" LoopIDToken="2007" ID="420005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.6 shipping_lines.phone]" LoopIDToken="2007" ID="420006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.7 shipping_lines.requested_fulfillment_service_id]" LoopIDToken="2007" ID="420007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.8 shipping_lines.delivery_category]" LoopIDToken="2007" ID="420008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.9 shipping_lines.carrier_identifier]" LoopIDToken="2007" ID="420009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:42.10 shipping_lines.discounted_price]" LoopIDToken="2007" ID="420010" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:43.1 price_set.Column]" LoopIDToken="2007" ID="430001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:44.1 shop_money.amount]" LoopIDToken="2007" ID="440001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:44.2 shop_money.currency_code]" LoopIDToken="2007" ID="440002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:45.1 presentment_money.amount]" LoopIDToken="2007" ID="450001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:45.2 presentment_money.currency_code]" LoopIDToken="2007" ID="450002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:46.1 discounted_price_set.Column]" LoopIDToken="2007" ID="460001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:47.1 shop_money.amount]" LoopIDToken="2007" ID="470001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:47.2 shop_money.currency_code]" LoopIDToken="2007" ID="470002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:48.1 presentment_money.amount]" LoopIDToken="2007" ID="480001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:48.2 presentment_money.currency_code]" LoopIDToken="2007" ID="480002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:49.1 discount_allocations.Column]" LoopIDToken="2008" ID="490001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:50.1 tax_lines.price]" LoopIDToken="2009" ID="500001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:50.2 tax_lines.rate]" LoopIDToken="2009" ID="500002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:50.3 tax_lines.title]" LoopIDToken="2009" ID="500003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:52.1 shop_money.amount]" LoopIDToken="2009" ID="520001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:52.2 shop_money.currency_code]" LoopIDToken="2009" ID="520002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:53.1 presentment_money.amount]" LoopIDToken="2009" ID="530001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:53.2 presentment_money.currency_code]" LoopIDToken="2009" ID="530002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.1 line_items.id]" LoopIDToken="1135" ID="290001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.2 line_items.variant_id]" LoopIDToken="1135" ID="290002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.3 line_items.title]" LoopIDToken="1135" ID="290003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.4 line_items.quantity]" LoopIDToken="1135" ID="290004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.5 line_items.sku]" LoopIDToken="1135" ID="290005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.6 line_items.variant_title]" LoopIDToken="1135" ID="290006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.7 line_items.vendor]" LoopIDToken="1135" ID="290007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.8 line_items.fulfillment_service]" LoopIDToken="1135" ID="290008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.9 line_items.product_id]" LoopIDToken="1135" ID="290009" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.10 line_items.requires_shipping]" LoopIDToken="1135" ID="290010" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:29.11 line_items.taxable]" LoopIDToken="1135" ID="290011" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:29.12 line_items.gift_card]" LoopIDToken="1135" ID="290012" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:29.13 line_items.name]" LoopIDToken="1135" ID="290013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.14 line_items.variant_inventory_management]" LoopIDToken="1135" ID="290014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.15 line_items.product_exists]" LoopIDToken="1135" ID="290015" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:29.16 line_items.fulfillable_quantity]" LoopIDToken="1135" ID="290016" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.17 line_items.grams]" LoopIDToken="1135" ID="290017" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.18 line_items.price]" LoopIDToken="1135" ID="290018" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:29.19 line_items.total_discount]" LoopIDToken="1135" ID="290019" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:29.20 line_items.fulfillment_status]" LoopIDToken="1135" ID="290020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.21 line_items.admin_graphql_api_id]" LoopIDToken="1135" ID="290021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:29.22 line_items.item_description]" LoopIDToken="1135" ID="290022" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:30.1 properties.name]" LoopIDToken="1135" ID="300001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:30.2 properties.value]" LoopIDToken="1135" ID="300002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:31.1 price_set.amount]" LoopIDToken="1135" ID="310001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:31.2 price_set.currency_code]" LoopIDToken="1135" ID="310002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:32.1 shop_money.amount]" LoopIDToken="1135" ID="320001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:32.2 shop_money.currency_code]" LoopIDToken="1135" ID="320002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:33.1 presentment_money.amount]" LoopIDToken="1135" ID="330001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:33.2 presentment_money.currency_code]" LoopIDToken="1135" ID="330002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:34.1 total_discount_set.amount]" LoopIDToken="1135" ID="340001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:34.2 total_discount_set.currency_code]" LoopIDToken="1135" ID="340002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:35.1 shop_money.amount]" LoopIDToken="1135" ID="350001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:35.2 shop_money.currency_code]" LoopIDToken="1135" ID="350002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:36.1 presentment_money.amount]" LoopIDToken="1135" ID="360001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:36.2 presentment_money.currency_code]" LoopIDToken="1135" ID="360002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:37.1 discount_allocations.Column]" LoopIDToken="2004" ID="370001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:38.1 tax_lines.title]" LoopIDToken="1156" ID="380001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:38.2 tax_lines.price]" LoopIDToken="1156" ID="380002" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:38.3 tax_lines.rate]" LoopIDToken="1156" ID="380003" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:39.1 price_set.amount]" LoopIDToken="1156" ID="390001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:39.2 price_set.currency_code]" LoopIDToken="1156" ID="390002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:40.1 shop_money.amount]" LoopIDToken="1156" ID="400001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:40.2 shop_money.currency_code]" LoopIDToken="1156" ID="400002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.1 presentment_money.amount]" LoopIDToken="1156" ID="410001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:41.2 presentment_money.currency_code]" LoopIDToken="1156" ID="410002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.1 shipping_lines.id]" LoopIDToken="1155" ID="420001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.2 shipping_lines.title]" LoopIDToken="1155" ID="420002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.3 shipping_lines.price]" LoopIDToken="1155" ID="420003" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:42.4 shipping_lines.code]" LoopIDToken="1155" ID="420004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.5 shipping_lines.source]" LoopIDToken="1155" ID="420005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.6 shipping_lines.phone]" LoopIDToken="1155" ID="420006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.7 shipping_lines.requested_fulfillment_service_id]" LoopIDToken="1155" ID="420007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.8 shipping_lines.delivery_category]" LoopIDToken="1155" ID="420008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.9 shipping_lines.carrier_identifier]" LoopIDToken="1155" ID="420009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:42.10 shipping_lines.discounted_price]" LoopIDToken="1155" ID="420010" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:43.1 price_set.Column]" LoopIDToken="1155" ID="430001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:44.1 shop_money.amount]" LoopIDToken="1155" ID="440001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:44.2 shop_money.currency_code]" LoopIDToken="1155" ID="440002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:45.1 presentment_money.amount]" LoopIDToken="1155" ID="450001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:45.2 presentment_money.currency_code]" LoopIDToken="1155" ID="450002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:46.1 discounted_price_set.Column]" LoopIDToken="1155" ID="460001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:47.1 shop_money.amount]" LoopIDToken="1155" ID="470001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:47.2 shop_money.currency_code]" LoopIDToken="1155" ID="470002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:48.1 presentment_money.amount]" LoopIDToken="1155" ID="480001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:48.2 presentment_money.currency_code]" LoopIDToken="1155" ID="480002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:49.1 discount_allocations.Column]" LoopIDToken="2005" ID="490001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:50.1 tax_lines.price]" LoopIDToken="1158" ID="500001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:50.2 tax_lines.rate]" LoopIDToken="1158" ID="500002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:50.3 tax_lines.title]" LoopIDToken="1158" ID="500003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:52.1 shop_money.amount]" LoopIDToken="1158" ID="520001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:52.2 shop_money.currency_code]" LoopIDToken="1158" ID="520002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:53.1 presentment_money.amount]" LoopIDToken="1158" ID="530001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:53.2 presentment_money.currency_code]" LoopIDToken="1158" ID="530002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:54.1 billing_address.first_name]" LoopIDToken="0" ID="540001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:54.2 billing_address.address1]" LoopIDToken="0" ID="540002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:54.3 billing_address.phone]" LoopIDToken="0" ID="540003" DataType="0" SubType="0" Size="0" />
@@ -1111,165 +1111,165 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:55.13 shipping_address.name]" LoopIDToken="0" ID="550013" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:55.14 shipping_address.country_code]" LoopIDToken="0" ID="550014" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:55.15 shipping_address.province_code]" LoopIDToken="0" ID="550015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.1 fulfillments.id]" LoopIDToken="2010" ID="560001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.2 fulfillments.order_id]" LoopIDToken="2010" ID="560002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.3 fulfillments.status]" LoopIDToken="2010" ID="560003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.4 fulfillments.created_at]" LoopIDToken="2010" ID="560004" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:56.5 fulfillments.service]" LoopIDToken="2010" ID="560005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.6 fulfillments.updated_at]" LoopIDToken="2010" ID="560006" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:56.7 fulfillments.tracking_company]" LoopIDToken="2010" ID="560007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.8 fulfillments.shipment_status]" LoopIDToken="2010" ID="560008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.9 fulfillments.location_id]" LoopIDToken="2010" ID="560009" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.10 fulfillments.tracking_number]" LoopIDToken="2010" ID="560010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.11 fulfillments.tracking_url]" LoopIDToken="2010" ID="560011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.12 fulfillments.name]" LoopIDToken="2010" ID="560012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:56.13 fulfillments.admin_graphql_api_id]" LoopIDToken="2010" ID="560013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:57.1 tracking_numbers.Column]" LoopIDToken="2011" ID="570001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:58.1 tracking_urls.Column]" LoopIDToken="2012" ID="580001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:59.1 receipt.testcase]" LoopIDToken="2010" ID="590001" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:59.2 receipt.authorization]" LoopIDToken="2010" ID="590002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.1 line_items.id]" LoopIDToken="2013" ID="600001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.2 line_items.variant_id]" LoopIDToken="2013" ID="600002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.3 line_items.title]" LoopIDToken="2013" ID="600003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.4 line_items.quantity]" LoopIDToken="2013" ID="600004" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.5 line_items.sku]" LoopIDToken="2013" ID="600005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.6 line_items.variant_title]" LoopIDToken="2013" ID="600006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.7 line_items.vendor]" LoopIDToken="2013" ID="600007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.8 line_items.fulfillment_service]" LoopIDToken="2013" ID="600008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.9 line_items.product_id]" LoopIDToken="2013" ID="600009" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.10 line_items.requires_shipping]" LoopIDToken="2013" ID="600010" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:60.11 line_items.taxable]" LoopIDToken="2013" ID="600011" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:60.12 line_items.gift_card]" LoopIDToken="2013" ID="600012" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:60.13 line_items.name]" LoopIDToken="2013" ID="600013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.14 line_items.variant_inventory_management]" LoopIDToken="2013" ID="600014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.15 line_items.product_exists]" LoopIDToken="2013" ID="600015" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:60.16 line_items.fulfillable_quantity]" LoopIDToken="2013" ID="600016" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.17 line_items.grams]" LoopIDToken="2013" ID="600017" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.18 line_items.price]" LoopIDToken="2013" ID="600018" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:60.19 line_items.total_discount]" LoopIDToken="2013" ID="600019" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:60.20 line_items.fulfillment_status]" LoopIDToken="2013" ID="600020" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:60.21 line_items.admin_graphql_api_id]" LoopIDToken="2013" ID="600021" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:61.1 properties.name]" LoopIDToken="2013" ID="610001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:61.2 properties.value]" LoopIDToken="2013" ID="610002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:62.1 price_set.amount]" LoopIDToken="2013" ID="620001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:62.2 price_set.currency_code]" LoopIDToken="2013" ID="620002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:63.1 total_discount_set.amount]" LoopIDToken="2013" ID="630001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:63.2 total_discount_set.currency_code]" LoopIDToken="2013" ID="630002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:64.1 discount_allocations.Column]" LoopIDToken="2014" ID="640001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:65.1 tax_lines.title]" LoopIDToken="2015" ID="650001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:65.2 tax_lines.price]" LoopIDToken="2015" ID="650002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:65.3 tax_lines.rate]" LoopIDToken="2015" ID="650003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:66.1 shop_money.amount]" LoopIDToken="2013" ID="660001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:66.2 shop_money.currency_code]" LoopIDToken="2013" ID="660002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:67.1 presentment_money.amount]" LoopIDToken="2013" ID="670001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:67.2 presentment_money.currency_code]" LoopIDToken="2013" ID="670002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:68.1 shop_money.amount]" LoopIDToken="2013" ID="680001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:68.2 shop_money.currency_code]" LoopIDToken="2013" ID="680002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:69.1 presentment_money.amount]" LoopIDToken="2013" ID="690001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:69.2 presentment_money.currency_code]" LoopIDToken="2013" ID="690002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:70.1 price_set.amount]" LoopIDToken="2015" ID="700001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:70.2 price_set.currency_code]" LoopIDToken="2015" ID="700002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:71.1 shop_money.amount]" LoopIDToken="2015" ID="710001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:71.2 shop_money.currency_code]" LoopIDToken="2015" ID="710002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:72.1 presentment_money.amount]" LoopIDToken="2015" ID="720001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:72.2 presentment_money.currency_code]" LoopIDToken="2015" ID="720002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.1 fulfillments.id]" LoopIDToken="2006" ID="560001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.2 fulfillments.order_id]" LoopIDToken="2006" ID="560002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.3 fulfillments.status]" LoopIDToken="2006" ID="560003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.4 fulfillments.created_at]" LoopIDToken="2006" ID="560004" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:56.5 fulfillments.service]" LoopIDToken="2006" ID="560005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.6 fulfillments.updated_at]" LoopIDToken="2006" ID="560006" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:56.7 fulfillments.tracking_company]" LoopIDToken="2006" ID="560007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.8 fulfillments.shipment_status]" LoopIDToken="2006" ID="560008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.9 fulfillments.location_id]" LoopIDToken="2006" ID="560009" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.10 fulfillments.tracking_number]" LoopIDToken="2006" ID="560010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.11 fulfillments.tracking_url]" LoopIDToken="2006" ID="560011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.12 fulfillments.name]" LoopIDToken="2006" ID="560012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:56.13 fulfillments.admin_graphql_api_id]" LoopIDToken="2006" ID="560013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:57.1 tracking_numbers.Column]" LoopIDToken="2007" ID="570001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:58.1 tracking_urls.Column]" LoopIDToken="2008" ID="580001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:59.1 receipt.testcase]" LoopIDToken="2006" ID="590001" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:59.2 receipt.authorization]" LoopIDToken="2006" ID="590002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.1 line_items.id]" LoopIDToken="2009" ID="600001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.2 line_items.variant_id]" LoopIDToken="2009" ID="600002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.3 line_items.title]" LoopIDToken="2009" ID="600003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.4 line_items.quantity]" LoopIDToken="2009" ID="600004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.5 line_items.sku]" LoopIDToken="2009" ID="600005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.6 line_items.variant_title]" LoopIDToken="2009" ID="600006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.7 line_items.vendor]" LoopIDToken="2009" ID="600007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.8 line_items.fulfillment_service]" LoopIDToken="2009" ID="600008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.9 line_items.product_id]" LoopIDToken="2009" ID="600009" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.10 line_items.requires_shipping]" LoopIDToken="2009" ID="600010" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:60.11 line_items.taxable]" LoopIDToken="2009" ID="600011" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:60.12 line_items.gift_card]" LoopIDToken="2009" ID="600012" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:60.13 line_items.name]" LoopIDToken="2009" ID="600013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.14 line_items.variant_inventory_management]" LoopIDToken="2009" ID="600014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.15 line_items.product_exists]" LoopIDToken="2009" ID="600015" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:60.16 line_items.fulfillable_quantity]" LoopIDToken="2009" ID="600016" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.17 line_items.grams]" LoopIDToken="2009" ID="600017" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.18 line_items.price]" LoopIDToken="2009" ID="600018" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:60.19 line_items.total_discount]" LoopIDToken="2009" ID="600019" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:60.20 line_items.fulfillment_status]" LoopIDToken="2009" ID="600020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:60.21 line_items.admin_graphql_api_id]" LoopIDToken="2009" ID="600021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:61.1 properties.name]" LoopIDToken="2009" ID="610001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:61.2 properties.value]" LoopIDToken="2009" ID="610002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:62.1 price_set.amount]" LoopIDToken="2009" ID="620001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:62.2 price_set.currency_code]" LoopIDToken="2009" ID="620002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:63.1 total_discount_set.amount]" LoopIDToken="2009" ID="630001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:63.2 total_discount_set.currency_code]" LoopIDToken="2009" ID="630002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:64.1 discount_allocations.Column]" LoopIDToken="2010" ID="640001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:65.1 tax_lines.title]" LoopIDToken="1156" ID="650001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:65.2 tax_lines.price]" LoopIDToken="1156" ID="650002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:65.3 tax_lines.rate]" LoopIDToken="1156" ID="650003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:66.1 shop_money.amount]" LoopIDToken="2009" ID="660001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:66.2 shop_money.currency_code]" LoopIDToken="2009" ID="660002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:67.1 presentment_money.amount]" LoopIDToken="2009" ID="670001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:67.2 presentment_money.currency_code]" LoopIDToken="2009" ID="670002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:68.1 shop_money.amount]" LoopIDToken="2009" ID="680001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:68.2 shop_money.currency_code]" LoopIDToken="2009" ID="680002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:69.1 presentment_money.amount]" LoopIDToken="2009" ID="690001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:69.2 presentment_money.currency_code]" LoopIDToken="2009" ID="690002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:70.1 price_set.amount]" LoopIDToken="1156" ID="700001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:70.2 price_set.currency_code]" LoopIDToken="1156" ID="700002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:71.1 shop_money.amount]" LoopIDToken="1156" ID="710001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:71.2 shop_money.currency_code]" LoopIDToken="1156" ID="710002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:72.1 presentment_money.amount]" LoopIDToken="1156" ID="720001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:72.2 presentment_money.currency_code]" LoopIDToken="1156" ID="720002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.1 client_details.browser_ip]" LoopIDToken="0" ID="730001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.2 client_details.accept_language]" LoopIDToken="0" ID="730002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.3 client_details.user_agent]" LoopIDToken="0" ID="730003" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.4 client_details.session_hash]" LoopIDToken="0" ID="730004" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.5 client_details.browser_width]" LoopIDToken="0" ID="730005" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:73.6 client_details.browser_height]" LoopIDToken="0" ID="730006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:74.1 refunds.id]" LoopIDToken="2016" ID="740001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:74.2 refunds.order_id]" LoopIDToken="2016" ID="740002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:74.3 refunds.created_at]" LoopIDToken="2016" ID="740003" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:74.4 refunds.note]" LoopIDToken="2016" ID="740004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:74.5 refunds.user_id]" LoopIDToken="2016" ID="740005" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:74.6 refunds.processed_at]" LoopIDToken="2016" ID="740006" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:74.7 refunds.restock]" LoopIDToken="2016" ID="740007" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:74.8 refunds.admin_graphql_api_id]" LoopIDToken="2016" ID="740008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.1 refund_line_items.id]" LoopIDToken="2016" ID="750001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.2 refund_line_items.quantity]" LoopIDToken="2016" ID="750002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.3 refund_line_items.line_item_id]" LoopIDToken="2016" ID="750003" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.4 refund_line_items.location_id]" LoopIDToken="2016" ID="750004" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.5 refund_line_items.restock_type]" LoopIDToken="2016" ID="750005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.6 refund_line_items.subtotal]" LoopIDToken="2016" ID="750006" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:75.7 refund_line_items.total_tax]" LoopIDToken="2016" ID="750007" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:76.1 subtotal_set.Column]" LoopIDToken="2016" ID="760001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:77.1 shop_money.amount]" LoopIDToken="2016" ID="770001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:77.2 shop_money.currency_code]" LoopIDToken="2016" ID="770002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:78.1 presentment_money.amount]" LoopIDToken="2016" ID="780001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:78.2 presentment_money.currency_code]" LoopIDToken="2016" ID="780002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:79.1 total_tax_set.Column]" LoopIDToken="2016" ID="790001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:80.1 shop_money.amount]" LoopIDToken="2016" ID="800001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:80.2 shop_money.currency_code]" LoopIDToken="2016" ID="800002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:81.1 presentment_money.amount]" LoopIDToken="2016" ID="810001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:81.2 presentment_money.currency_code]" LoopIDToken="2016" ID="810002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.1 line_item.id]" LoopIDToken="2016" ID="820001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.2 line_item.variant_id]" LoopIDToken="2016" ID="820002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.3 line_item.title]" LoopIDToken="2016" ID="820003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.4 line_item.quantity]" LoopIDToken="2016" ID="820004" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.5 line_item.sku]" LoopIDToken="2016" ID="820005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.6 line_item.variant_title]" LoopIDToken="2016" ID="820006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.7 line_item.vendor]" LoopIDToken="2016" ID="820007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.8 line_item.fulfillment_service]" LoopIDToken="2016" ID="820008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.9 line_item.product_id]" LoopIDToken="2016" ID="820009" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.10 line_item.requires_shipping]" LoopIDToken="2016" ID="820010" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:82.11 line_item.taxable]" LoopIDToken="2016" ID="820011" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:82.12 line_item.gift_card]" LoopIDToken="2016" ID="820012" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:82.13 line_item.name]" LoopIDToken="2016" ID="820013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.14 line_item.variant_inventory_management]" LoopIDToken="2016" ID="820014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.15 line_item.product_exists]" LoopIDToken="2016" ID="820015" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:82.16 line_item.fulfillable_quantity]" LoopIDToken="2016" ID="820016" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.17 line_item.grams]" LoopIDToken="2016" ID="820017" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.18 line_item.price]" LoopIDToken="2016" ID="820018" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:82.19 line_item.total_discount]" LoopIDToken="2016" ID="820019" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:82.20 line_item.fulfillment_status]" LoopIDToken="2016" ID="820020" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:82.21 line_item.admin_graphql_api_id]" LoopIDToken="2016" ID="820021" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:83.1 properties.name]" LoopIDToken="2016" ID="830001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:83.2 properties.value]" LoopIDToken="2016" ID="830002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:84.1 price_set.amount]" LoopIDToken="2016" ID="840001" DataType="5" SubType="0" Size="0" />
-        <Value CalcStr="[R:84.2 price_set.currency_code]" LoopIDToken="2016" ID="840002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:85.1 total_discount_set.amount]" LoopIDToken="2016" ID="850001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:85.2 total_discount_set.currency_code]" LoopIDToken="2016" ID="850002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:86.1 discount_allocations.Column]" LoopIDToken="2017" ID="860001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:87.1 tax_lines.title]" LoopIDToken="2018" ID="870001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:87.2 tax_lines.price]" LoopIDToken="2018" ID="870002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:87.3 tax_lines.rate]" LoopIDToken="2018" ID="870003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:88.1 shop_money.amount]" LoopIDToken="2016" ID="880001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:88.2 shop_money.currency_code]" LoopIDToken="2016" ID="880002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:89.1 presentment_money.amount]" LoopIDToken="2016" ID="890001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:89.2 presentment_money.currency_code]" LoopIDToken="2016" ID="890002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:90.1 shop_money.amount]" LoopIDToken="2016" ID="900001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:90.2 shop_money.currency_code]" LoopIDToken="2016" ID="900002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:91.1 presentment_money.amount]" LoopIDToken="2016" ID="910001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:91.2 presentment_money.currency_code]" LoopIDToken="2016" ID="910002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:92.1 price_set.amount]" LoopIDToken="2018" ID="920001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:92.2 price_set.currency_code]" LoopIDToken="2018" ID="920002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:93.1 shop_money.amount]" LoopIDToken="2018" ID="930001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:93.2 shop_money.currency_code]" LoopIDToken="2018" ID="930002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:94.1 presentment_money.amount]" LoopIDToken="2018" ID="940001" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:94.2 presentment_money.currency_code]" LoopIDToken="2018" ID="940002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.1 transactions.id]" LoopIDToken="2019" ID="950001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.2 transactions.order_id]" LoopIDToken="2019" ID="950002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.3 transactions.kind]" LoopIDToken="2019" ID="950003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.4 transactions.gateway]" LoopIDToken="2019" ID="950004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.5 transactions.status]" LoopIDToken="2019" ID="950005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.6 transactions.message]" LoopIDToken="2019" ID="950006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.7 transactions.created_at]" LoopIDToken="2019" ID="950007" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:95.8 transactions.test]" LoopIDToken="2019" ID="950008" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:95.9 transactions.authorization]" LoopIDToken="2019" ID="950009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.10 transactions.location_id]" LoopIDToken="2019" ID="950010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.11 transactions.user_id]" LoopIDToken="2019" ID="950011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.12 transactions.parent_id]" LoopIDToken="2019" ID="950012" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.13 transactions.processed_at]" LoopIDToken="2019" ID="950013" DataType="11" SubType="1" Size="0" />
-        <Value CalcStr="[R:95.14 transactions.device_id]" LoopIDToken="2019" ID="950014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.15 transactions.error_code]" LoopIDToken="2019" ID="950015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.16 transactions.source_name]" LoopIDToken="2019" ID="950016" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.17 transactions.amount]" LoopIDToken="2019" ID="950017" DataType="5" SubType="2" Size="0" />
-        <Value CalcStr="[R:95.18 transactions.currency]" LoopIDToken="2019" ID="950018" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:95.19 transactions.admin_graphql_api_id]" LoopIDToken="2019" ID="950019" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:96.1 receipt.Column]" LoopIDToken="2019" ID="960001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:97.1 order_adjustments.Column]" LoopIDToken="2020" ID="970001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:74.1 refunds.id]" LoopIDToken="2011" ID="740001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:74.2 refunds.order_id]" LoopIDToken="2011" ID="740002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:74.3 refunds.created_at]" LoopIDToken="2011" ID="740003" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:74.4 refunds.note]" LoopIDToken="2011" ID="740004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:74.5 refunds.user_id]" LoopIDToken="2011" ID="740005" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:74.6 refunds.processed_at]" LoopIDToken="2011" ID="740006" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:74.7 refunds.restock]" LoopIDToken="2011" ID="740007" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:74.8 refunds.admin_graphql_api_id]" LoopIDToken="2011" ID="740008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.1 refund_line_items.id]" LoopIDToken="2011" ID="750001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.2 refund_line_items.quantity]" LoopIDToken="2011" ID="750002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.3 refund_line_items.line_item_id]" LoopIDToken="2011" ID="750003" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.4 refund_line_items.location_id]" LoopIDToken="2011" ID="750004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.5 refund_line_items.restock_type]" LoopIDToken="2011" ID="750005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.6 refund_line_items.subtotal]" LoopIDToken="2011" ID="750006" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:75.7 refund_line_items.total_tax]" LoopIDToken="2011" ID="750007" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:76.1 subtotal_set.Column]" LoopIDToken="2011" ID="760001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:77.1 shop_money.amount]" LoopIDToken="2011" ID="770001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:77.2 shop_money.currency_code]" LoopIDToken="2011" ID="770002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:78.1 presentment_money.amount]" LoopIDToken="2011" ID="780001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:78.2 presentment_money.currency_code]" LoopIDToken="2011" ID="780002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:79.1 total_tax_set.Column]" LoopIDToken="2011" ID="790001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:80.1 shop_money.amount]" LoopIDToken="2011" ID="800001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:80.2 shop_money.currency_code]" LoopIDToken="2011" ID="800002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:81.1 presentment_money.amount]" LoopIDToken="2011" ID="810001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:81.2 presentment_money.currency_code]" LoopIDToken="2011" ID="810002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.1 line_item.id]" LoopIDToken="2011" ID="820001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.2 line_item.variant_id]" LoopIDToken="2011" ID="820002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.3 line_item.title]" LoopIDToken="2011" ID="820003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.4 line_item.quantity]" LoopIDToken="2011" ID="820004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.5 line_item.sku]" LoopIDToken="2011" ID="820005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.6 line_item.variant_title]" LoopIDToken="2011" ID="820006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.7 line_item.vendor]" LoopIDToken="2011" ID="820007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.8 line_item.fulfillment_service]" LoopIDToken="2011" ID="820008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.9 line_item.product_id]" LoopIDToken="2011" ID="820009" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.10 line_item.requires_shipping]" LoopIDToken="2011" ID="820010" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:82.11 line_item.taxable]" LoopIDToken="2011" ID="820011" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:82.12 line_item.gift_card]" LoopIDToken="2011" ID="820012" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:82.13 line_item.name]" LoopIDToken="2011" ID="820013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.14 line_item.variant_inventory_management]" LoopIDToken="2011" ID="820014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.15 line_item.product_exists]" LoopIDToken="2011" ID="820015" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:82.16 line_item.fulfillable_quantity]" LoopIDToken="2011" ID="820016" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.17 line_item.grams]" LoopIDToken="2011" ID="820017" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.18 line_item.price]" LoopIDToken="2011" ID="820018" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:82.19 line_item.total_discount]" LoopIDToken="2011" ID="820019" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:82.20 line_item.fulfillment_status]" LoopIDToken="2011" ID="820020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:82.21 line_item.admin_graphql_api_id]" LoopIDToken="2011" ID="820021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:83.1 properties.name]" LoopIDToken="2011" ID="830001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:83.2 properties.value]" LoopIDToken="2011" ID="830002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:84.1 price_set.amount]" LoopIDToken="2011" ID="840001" DataType="5" SubType="0" Size="0" />
+        <Value CalcStr="[R:84.2 price_set.currency_code]" LoopIDToken="2011" ID="840002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:85.1 total_discount_set.amount]" LoopIDToken="2011" ID="850001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:85.2 total_discount_set.currency_code]" LoopIDToken="2011" ID="850002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:86.1 discount_allocations.Column]" LoopIDToken="2012" ID="860001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:87.1 tax_lines.title]" LoopIDToken="1156" ID="870001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:87.2 tax_lines.price]" LoopIDToken="1156" ID="870002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:87.3 tax_lines.rate]" LoopIDToken="1156" ID="870003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:88.1 shop_money.amount]" LoopIDToken="2011" ID="880001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:88.2 shop_money.currency_code]" LoopIDToken="2011" ID="880002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:89.1 presentment_money.amount]" LoopIDToken="2011" ID="890001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:89.2 presentment_money.currency_code]" LoopIDToken="2011" ID="890002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:90.1 shop_money.amount]" LoopIDToken="2011" ID="900001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:90.2 shop_money.currency_code]" LoopIDToken="2011" ID="900002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:91.1 presentment_money.amount]" LoopIDToken="2011" ID="910001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:91.2 presentment_money.currency_code]" LoopIDToken="2011" ID="910002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:92.1 price_set.amount]" LoopIDToken="1156" ID="920001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:92.2 price_set.currency_code]" LoopIDToken="1156" ID="920002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:93.1 shop_money.amount]" LoopIDToken="1156" ID="930001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:93.2 shop_money.currency_code]" LoopIDToken="1156" ID="930002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:94.1 presentment_money.amount]" LoopIDToken="1156" ID="940001" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:94.2 presentment_money.currency_code]" LoopIDToken="1156" ID="940002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.1 transactions.id]" LoopIDToken="2013" ID="950001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.2 transactions.order_id]" LoopIDToken="2013" ID="950002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.3 transactions.kind]" LoopIDToken="2013" ID="950003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.4 transactions.gateway]" LoopIDToken="2013" ID="950004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.5 transactions.status]" LoopIDToken="2013" ID="950005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.6 transactions.message]" LoopIDToken="2013" ID="950006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.7 transactions.created_at]" LoopIDToken="2013" ID="950007" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:95.8 transactions.test]" LoopIDToken="2013" ID="950008" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:95.9 transactions.authorization]" LoopIDToken="2013" ID="950009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.10 transactions.location_id]" LoopIDToken="2013" ID="950010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.11 transactions.user_id]" LoopIDToken="2013" ID="950011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.12 transactions.parent_id]" LoopIDToken="2013" ID="950012" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.13 transactions.processed_at]" LoopIDToken="2013" ID="950013" DataType="11" SubType="1" Size="0" />
+        <Value CalcStr="[R:95.14 transactions.device_id]" LoopIDToken="2013" ID="950014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.15 transactions.error_code]" LoopIDToken="2013" ID="950015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.16 transactions.source_name]" LoopIDToken="2013" ID="950016" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.17 transactions.amount]" LoopIDToken="2013" ID="950017" DataType="5" SubType="2" Size="0" />
+        <Value CalcStr="[R:95.18 transactions.currency]" LoopIDToken="2013" ID="950018" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:95.19 transactions.admin_graphql_api_id]" LoopIDToken="2013" ID="950019" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:96.1 receipt.Column]" LoopIDToken="2013" ID="960001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:97.1 order_adjustments.Column]" LoopIDToken="2014" ID="970001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:98.1 payment_details.credit_card_bin]" LoopIDToken="0" ID="980001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:98.2 payment_details.avs_result_code]" LoopIDToken="0" ID="980002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:98.3 payment_details.cvv_result_code]" LoopIDToken="0" ID="980003" DataType="0" SubType="0" Size="0" />
@@ -1315,39 +1315,33 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:100.16 default_address.country_name]" LoopIDToken="0" ID="1000016" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:100.17 default_address.default]" LoopIDToken="0" ID="1000017" DataType="12" SubType="3" Size="0" />
       </Values>
+      <Loops>
+        <Loop LoopName="Item" LoopIDToken="1135" ParentLoopIDToken="0" />
+        <Loop LoopName="Address" LoopIDToken="1155" ParentLoopIDToken="0" />
+        <Loop LoopName="Tax" LoopIDToken="1158" ParentLoopIDToken="0" />
+        <Loop LoopName="TDS" LoopIDToken="1156" ParentLoopIDToken="1135" />
+        <Loop LoopName="Loop_Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row6" LoopIDToken="2003" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row37" LoopIDToken="2004" ParentLoopIDToken="1135" />
+        <Loop LoopName="Loop_Row49" LoopIDToken="2005" ParentLoopIDToken="1155" />
+        <Loop LoopName="Loop_Row56" LoopIDToken="2006" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row57" LoopIDToken="2007" ParentLoopIDToken="2006" />
+        <Loop LoopName="Loop_Row58" LoopIDToken="2008" ParentLoopIDToken="2006" />
+        <Loop LoopName="Loop_Row60" LoopIDToken="2009" ParentLoopIDToken="2006" />
+        <Loop LoopName="Loop_Row64" LoopIDToken="2010" ParentLoopIDToken="2009" />
+        <Loop LoopName="Loop_Row74" LoopIDToken="2011" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row86" LoopIDToken="2012" ParentLoopIDToken="2011" />
+        <Loop LoopName="Loop_Row95" LoopIDToken="2013" ParentLoopIDToken="2011" />
+        <Loop LoopName="Loop_Row97" LoopIDToken="2014" ParentLoopIDToken="2011" />
+      </Loops>
       <Addresses />
       <ConvertItems />
       <ConvertHeaders />
       <FieldConversions />
       <ItemTransTitles />
       <Docs />
-      <Loops>
-        <Loop LoopName="Item" LoopIDToken="1135" ParentLoopIDToken="0" />
-        <Loop LoopName="Address" LoopIDToken="1155" ParentLoopIDToken="0" />
-        <Loop LoopName="Tax" LoopIDToken="1158" ParentLoopIDToken="0" />
-        <Loop LoopName="TDS" LoopIDToken="1156" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row4" LoopIDToken="2000" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row5" LoopIDToken="2001" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row6" LoopIDToken="2002" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row7" LoopIDToken="2003" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row29" LoopIDToken="2004" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row37" LoopIDToken="2005" ParentLoopIDToken="2004" />
-        <Loop LoopName="Loop_Row38" LoopIDToken="2006" ParentLoopIDToken="2004" />
-        <Loop LoopName="Loop_Row42" LoopIDToken="2007" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row49" LoopIDToken="2008" ParentLoopIDToken="2007" />
-        <Loop LoopName="Loop_Row50" LoopIDToken="2009" ParentLoopIDToken="2007" />
-        <Loop LoopName="Loop_Row56" LoopIDToken="2010" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row57" LoopIDToken="2011" ParentLoopIDToken="2010" />
-        <Loop LoopName="Loop_Row58" LoopIDToken="2012" ParentLoopIDToken="2010" />
-        <Loop LoopName="Loop_Row60" LoopIDToken="2013" ParentLoopIDToken="2010" />
-        <Loop LoopName="Loop_Row64" LoopIDToken="2014" ParentLoopIDToken="2013" />
-        <Loop LoopName="Loop_Row65" LoopIDToken="2015" ParentLoopIDToken="2013" />
-        <Loop LoopName="Loop_Row74" LoopIDToken="2016" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row86" LoopIDToken="2017" ParentLoopIDToken="2016" />
-        <Loop LoopName="Loop_Row87" LoopIDToken="2018" ParentLoopIDToken="2016" />
-        <Loop LoopName="Loop_Row95" LoopIDToken="2019" ParentLoopIDToken="2016" />
-        <Loop LoopName="Loop_Row97" LoopIDToken="2020" ParentLoopIDToken="2016" />
-      </Loops>
       <AltDocs />
       <RowLinks />
       <FormatFrameworkParameters />
@@ -1484,7 +1478,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="ItemInstances" Description="FulfillmentLines\Item\ItemInstances" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="4">
+        <Row Name="ItemInstances" Description="FulfillmentLines\Item\ItemInstances" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2000" ParentLoopIDToken="1135" ChildOf="4">
           <Columns>
             <Column Title="InternalCode" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="Description" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -1518,7 +1512,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="FulfillmentSubLines" Description="FulfillmentLines\FulfillmentSubLines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1134" ParentLoopIDToken="0" ChildOf="2">
+        <Row Name="FulfillmentSubLines" Description="FulfillmentLines\FulfillmentSubLines" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="1134" ParentLoopIDToken="1135" ChildOf="2">
           <Columns>
             <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="Version" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -1586,7 +1580,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="ItemInstances" Description="FulfillmentLines\ItemInstance\Item\ItemInstances" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="12">
+        <Row Name="ItemInstances" Description="FulfillmentLines\ItemInstance\Item\ItemInstances" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2001" ParentLoopIDToken="1135" ChildOf="12">
           <Columns>
             <Column Title="InternalCode" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="Description" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -1716,190 +1710,186 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:2.3 Status.SourceSystem]" LoopIDToken="0" ID="20003" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.4 Status.MasterSystem]" LoopIDToken="0" ID="20004" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.5 Status.Sequence]" LoopIDToken="0" ID="20005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.1 FulfillmentLines.LineNumber]" LoopIDToken="1999" ID="30001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.2 FulfillmentLines.Description]" LoopIDToken="1999" ID="30002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.3 FulfillmentLines.ProductCode]" LoopIDToken="1999" ID="30003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.4 FulfillmentLines.ItemDescription]" LoopIDToken="1999" ID="30004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.5 FulfillmentLines.Quantity]" LoopIDToken="1999" ID="30005" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.6 FulfillmentLines.UnitPrice]" LoopIDToken="1999" ID="30006" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.7 FulfillmentLines.Weight]" LoopIDToken="1999" ID="30007" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.8 FulfillmentLines.SourceSystem]" LoopIDToken="1999" ID="30008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.9 FulfillmentLines.MasterSystem]" LoopIDToken="1999" ID="30009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.10 FulfillmentLines.DiscountAmount]" LoopIDToken="1999" ID="30010" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.11 FulfillmentLines.QuantityRemaining]" LoopIDToken="1999" ID="30011" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.1 Status.Name]" LoopIDToken="1999" ID="40001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.2 Status.Description]" LoopIDToken="1999" ID="40002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.3 Status.SourceSystem]" LoopIDToken="1999" ID="40003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.4 Status.MasterSystem]" LoopIDToken="1999" ID="40004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.5 Status.Sequence]" LoopIDToken="1999" ID="40005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.1 Item.ProductCode]" LoopIDToken="1999" ID="50001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.2 Item.Description]" LoopIDToken="1999" ID="50002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.3 Item.Lot]" LoopIDToken="1999" ID="50003" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.4 Item.Serial]" LoopIDToken="1999" ID="50004" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.5 Item.TrackOnInbound]" LoopIDToken="1999" ID="50005" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.6 Item.Expiry]" LoopIDToken="1999" ID="50006" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.7 Item.ManufactureDate]" LoopIDToken="1999" ID="50007" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.8 Item.CountryOfOrigin]" LoopIDToken="1999" ID="50008" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:5.9 Item.SourceSystem]" LoopIDToken="1999" ID="50009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.10 Item.MasterSystem]" LoopIDToken="1999" ID="50010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.11 Item.ShortItemDescription]" LoopIDToken="1999" ID="50011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:6.1 ItemGroup.Name]" LoopIDToken="1999" ID="60001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:6.2 ItemGroup.SourceSystem]" LoopIDToken="1999" ID="60002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:6.3 ItemGroup.MasterSystem]" LoopIDToken="1999" ID="60003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.1 FulfillmentLines.LineNumber]" LoopIDToken="1135" ID="30001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.2 FulfillmentLines.Description]" LoopIDToken="1135" ID="30002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.3 FulfillmentLines.ProductCode]" LoopIDToken="1135" ID="30003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.4 FulfillmentLines.ItemDescription]" LoopIDToken="1135" ID="30004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.5 FulfillmentLines.Quantity]" LoopIDToken="1135" ID="30005" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.6 FulfillmentLines.UnitPrice]" LoopIDToken="1135" ID="30006" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.7 FulfillmentLines.Weight]" LoopIDToken="1135" ID="30007" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.8 FulfillmentLines.SourceSystem]" LoopIDToken="1135" ID="30008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.9 FulfillmentLines.MasterSystem]" LoopIDToken="1135" ID="30009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.10 FulfillmentLines.DiscountAmount]" LoopIDToken="1135" ID="30010" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.11 FulfillmentLines.QuantityRemaining]" LoopIDToken="1135" ID="30011" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.1 Status.Name]" LoopIDToken="1135" ID="40001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.2 Status.Description]" LoopIDToken="1135" ID="40002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.3 Status.SourceSystem]" LoopIDToken="1135" ID="40003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.4 Status.MasterSystem]" LoopIDToken="1135" ID="40004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.5 Status.Sequence]" LoopIDToken="1135" ID="40005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.1 Item.ProductCode]" LoopIDToken="1135" ID="50001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.2 Item.Description]" LoopIDToken="1135" ID="50002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.3 Item.Lot]" LoopIDToken="1135" ID="50003" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.4 Item.Serial]" LoopIDToken="1135" ID="50004" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.5 Item.TrackOnInbound]" LoopIDToken="1135" ID="50005" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.6 Item.Expiry]" LoopIDToken="1135" ID="50006" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.7 Item.ManufactureDate]" LoopIDToken="1135" ID="50007" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.8 Item.CountryOfOrigin]" LoopIDToken="1135" ID="50008" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:5.9 Item.SourceSystem]" LoopIDToken="1135" ID="50009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.10 Item.MasterSystem]" LoopIDToken="1135" ID="50010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.11 Item.ShortItemDescription]" LoopIDToken="1135" ID="50011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.1 ItemGroup.Name]" LoopIDToken="1135" ID="60001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.2 ItemGroup.SourceSystem]" LoopIDToken="1135" ID="60002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.3 ItemGroup.MasterSystem]" LoopIDToken="1135" ID="60003" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.1 ItemInstances.InternalCode]" LoopIDToken="2000" ID="70001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.2 ItemInstances.Description]" LoopIDToken="2000" ID="70002" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.3 ItemInstances.SerialNumber]" LoopIDToken="2000" ID="70003" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.4 ItemInstances.Sku]" LoopIDToken="2000" ID="70004" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.5 ItemInstances.SourceSystem]" LoopIDToken="2000" ID="70005" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:7.6 ItemInstances.MasterSystem]" LoopIDToken="2000" ID="70006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.1 WeightUnitOfMeasureDetail.Name]" LoopIDToken="1999" ID="80001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.2 WeightUnitOfMeasureDetail.EquivalentUomQuantity]" LoopIDToken="1999" ID="80002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.3 WeightUnitOfMeasureDetail.QuantityInBaseUom]" LoopIDToken="1999" ID="80003" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.4 WeightUnitOfMeasureDetail.ExternalId]" LoopIDToken="1999" ID="80004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:9.1 UnitOfMeasure.Name]" LoopIDToken="1999" ID="90001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:9.2 UnitOfMeasure.Description]" LoopIDToken="1999" ID="90002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.1 ItemInstance.InternalCode]" LoopIDToken="1999" ID="100001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.2 ItemInstance.Description]" LoopIDToken="1999" ID="100002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.3 ItemInstance.SerialNumber]" LoopIDToken="1999" ID="100003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.4 ItemInstance.Sku]" LoopIDToken="1999" ID="100004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.5 ItemInstance.SourceSystem]" LoopIDToken="1999" ID="100005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.6 ItemInstance.MasterSystem]" LoopIDToken="1999" ID="100006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.1 FulfillmentSubLines.Id]" LoopIDToken="2001" ID="110001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.2 FulfillmentSubLines.Version]" LoopIDToken="2001" ID="110002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.3 FulfillmentSubLines.DocumentReference]" LoopIDToken="2001" ID="110003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.4 FulfillmentSubLines.Quantity]" LoopIDToken="2001" ID="110004" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.5 FulfillmentSubLines.TrackingNumber]" LoopIDToken="2001" ID="110005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.6 FulfillmentSubLines.SourceSystem]" LoopIDToken="2001" ID="110006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.7 FulfillmentSubLines.MasterSystem]" LoopIDToken="2001" ID="110007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.8 FulfillmentSubLines.QuantityFulfilled]" LoopIDToken="2001" ID="110008" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.9 FulfillmentSubLines.QuantityRemaining]" LoopIDToken="2001" ID="110009" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.1 Location.InternalObjectId]" LoopIDToken="2001" ID="120001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.2 Location.Id]" LoopIDToken="2001" ID="120002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.3 Location.Version]" LoopIDToken="2001" ID="120003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.4 Location.Name]" LoopIDToken="2001" ID="120004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.5 Location.Description]" LoopIDToken="2001" ID="120005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.6 Location.Active]" LoopIDToken="2001" ID="120006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.7 Location.OpenTime]" LoopIDToken="2001" ID="120007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.8 Location.CloseTime]" LoopIDToken="2001" ID="120008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.9 Location.MinutesPerTimeSlot]" LoopIDToken="2001" ID="120009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.10 Location.ApptsBeforeWarning]" LoopIDToken="2001" ID="120010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.11 Location.CreatedDate]" LoopIDToken="2001" ID="120011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.12 Location.CreatedBy]" LoopIDToken="2001" ID="120012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.13 Location.ModifiedDate]" LoopIDToken="2001" ID="120013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.14 Location.ModifiedBy]" LoopIDToken="2001" ID="120014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.15 Location.ScheduleDurationMinutes]" LoopIDToken="2001" ID="120015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.16 Location.AccountingEntity]" LoopIDToken="2001" ID="120016" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.17 Location.Note]" LoopIDToken="2001" ID="120017" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.18 Location.Status]" LoopIDToken="2001" ID="120018" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.19 Location.StatusReason]" LoopIDToken="2001" ID="120019" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.20 Location.StatusEffectiveDateTime]" LoopIDToken="2001" ID="120020" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.21 Location.Virtual]" LoopIDToken="2001" ID="120021" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.22 Location.SourceSystem]" LoopIDToken="2001" ID="120022" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.23 Location.MasterSystem]" LoopIDToken="2001" ID="120023" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.24 Location.IntegrationLockStatus]" LoopIDToken="2001" ID="120024" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.25 Location.IntegrationSource]" LoopIDToken="2001" ID="120025" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.26 Location.BusinessObjectName]" LoopIDToken="2001" ID="120026" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.27 Location.UdfRowExists]" LoopIDToken="2001" ID="120027" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.28 Location.LocationType]" LoopIDToken="2001" ID="120028" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:12.29 Location.Campus]" LoopIDToken="2001" ID="120029" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.1 Item.ProductCode]" LoopIDToken="1999" ID="130001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.2 Item.Description]" LoopIDToken="1999" ID="130002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.3 Item.Lot]" LoopIDToken="1999" ID="130003" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.4 Item.Serial]" LoopIDToken="1999" ID="130004" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.5 Item.TrackOnInbound]" LoopIDToken="1999" ID="130005" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.6 Item.Expiry]" LoopIDToken="1999" ID="130006" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.7 Item.ManufactureDate]" LoopIDToken="1999" ID="130007" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.8 Item.CountryOfOrigin]" LoopIDToken="1999" ID="130008" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:13.9 Item.SourceSystem]" LoopIDToken="1999" ID="130009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.10 Item.MasterSystem]" LoopIDToken="1999" ID="130010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.11 Item.ShortItemDescription]" LoopIDToken="1999" ID="130011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:14.1 ItemGroup.Name]" LoopIDToken="1999" ID="140001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:14.2 ItemGroup.SourceSystem]" LoopIDToken="1999" ID="140002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:14.3 ItemGroup.MasterSystem]" LoopIDToken="1999" ID="140003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.1 ItemInstances.InternalCode]" LoopIDToken="2002" ID="150001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.2 ItemInstances.Description]" LoopIDToken="2002" ID="150002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.3 ItemInstances.SerialNumber]" LoopIDToken="2002" ID="150003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.4 ItemInstances.Sku]" LoopIDToken="2002" ID="150004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.5 ItemInstances.SourceSystem]" LoopIDToken="2002" ID="150005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.6 ItemInstances.MasterSystem]" LoopIDToken="2002" ID="150006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.1 FulfillmentParties.AddressType]" LoopIDToken="2003" ID="160001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.2 FulfillmentParties.Name]" LoopIDToken="2003" ID="160002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.3 FulfillmentParties.AttentionTo]" LoopIDToken="2003" ID="160003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.4 FulfillmentParties.Address1]" LoopIDToken="2003" ID="160004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.5 FulfillmentParties.Address2]" LoopIDToken="2003" ID="160005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.6 FulfillmentParties.City]" LoopIDToken="2003" ID="160006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.7 FulfillmentParties.State]" LoopIDToken="2003" ID="160007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.8 FulfillmentParties.PostalCode]" LoopIDToken="2003" ID="160008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.9 FulfillmentParties.Country]" LoopIDToken="2003" ID="160009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.10 FulfillmentParties.PhoneNumber]" LoopIDToken="2003" ID="160010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.11 FulfillmentParties.PhoneExtension]" LoopIDToken="2003" ID="160011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.12 FulfillmentParties.Email]" LoopIDToken="2003" ID="160012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.13 FulfillmentParties.Description]" LoopIDToken="2003" ID="160013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.14 FulfillmentParties.SourceSystem]" LoopIDToken="2003" ID="160014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.15 FulfillmentParties.MasterSystem]" LoopIDToken="2003" ID="160015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:17.1 PartyType.IsSystem]" LoopIDToken="2003" ID="170001" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:17.2 PartyType.Name]" LoopIDToken="2003" ID="170002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:17.3 PartyType.Description]" LoopIDToken="2003" ID="170003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:17.4 PartyType.SourceSystem]" LoopIDToken="2003" ID="170004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:17.5 PartyType.MasterSystem]" LoopIDToken="2003" ID="170005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.1 FulfillmentParties.AddressType]" LoopIDToken="2004" ID="180001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.2 FulfillmentParties.Name]" LoopIDToken="2004" ID="180002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.3 FulfillmentParties.AttentionTo]" LoopIDToken="2004" ID="180003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.4 FulfillmentParties.Address1]" LoopIDToken="2004" ID="180004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.5 FulfillmentParties.Address2]" LoopIDToken="2004" ID="180005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.6 FulfillmentParties.City]" LoopIDToken="2004" ID="180006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.7 FulfillmentParties.State]" LoopIDToken="2004" ID="180007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.8 FulfillmentParties.PostalCode]" LoopIDToken="2004" ID="180008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.9 FulfillmentParties.Country]" LoopIDToken="2004" ID="180009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.10 FulfillmentParties.PhoneNumber]" LoopIDToken="2004" ID="180010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.11 FulfillmentParties.PhoneExtension]" LoopIDToken="2004" ID="180011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.12 FulfillmentParties.Email]" LoopIDToken="2004" ID="180012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.13 FulfillmentParties.Description]" LoopIDToken="2004" ID="180013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.14 FulfillmentParties.SourceSystem]" LoopIDToken="2004" ID="180014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:18.15 FulfillmentParties.MasterSystem]" LoopIDToken="2004" ID="180015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:19.1 PartyType.IsSystem]" LoopIDToken="2004" ID="190001" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:19.2 PartyType.Name]" LoopIDToken="2004" ID="190002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:19.3 PartyType.Description]" LoopIDToken="2004" ID="190003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:19.4 PartyType.SourceSystem]" LoopIDToken="2004" ID="190004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:19.5 PartyType.MasterSystem]" LoopIDToken="2004" ID="190005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.1 FulfillmentParties.AddressType]" LoopIDToken="2005" ID="200001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.2 FulfillmentParties.Name]" LoopIDToken="2005" ID="200002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.3 FulfillmentParties.AttentionTo]" LoopIDToken="2005" ID="200003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.4 FulfillmentParties.Address1]" LoopIDToken="2005" ID="200004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.5 FulfillmentParties.Address2]" LoopIDToken="2005" ID="200005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.6 FulfillmentParties.City]" LoopIDToken="2005" ID="200006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.7 FulfillmentParties.State]" LoopIDToken="2005" ID="200007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.8 FulfillmentParties.PostalCode]" LoopIDToken="2005" ID="200008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.9 FulfillmentParties.Country]" LoopIDToken="2005" ID="200009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.10 FulfillmentParties.PhoneNumber]" LoopIDToken="2005" ID="200010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.11 FulfillmentParties.PhoneExtension]" LoopIDToken="2005" ID="200011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.12 FulfillmentParties.Email]" LoopIDToken="2005" ID="200012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.13 FulfillmentParties.Description]" LoopIDToken="2005" ID="200013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.14 FulfillmentParties.SourceSystem]" LoopIDToken="2005" ID="200014" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:20.15 FulfillmentParties.MasterSystem]" LoopIDToken="2005" ID="200015" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:21.1 PartyType.IsSystem]" LoopIDToken="2005" ID="210001" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:21.2 PartyType.Name]" LoopIDToken="2005" ID="210002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:21.3 PartyType.Description]" LoopIDToken="2005" ID="210003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:21.4 PartyType.SourceSystem]" LoopIDToken="2005" ID="210004" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:21.5 PartyType.MasterSystem]" LoopIDToken="2005" ID="210005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.1 WeightUnitOfMeasureDetail.Name]" LoopIDToken="1135" ID="80001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.2 WeightUnitOfMeasureDetail.EquivalentUomQuantity]" LoopIDToken="1135" ID="80002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.3 WeightUnitOfMeasureDetail.QuantityInBaseUom]" LoopIDToken="1135" ID="80003" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.4 WeightUnitOfMeasureDetail.ExternalId]" LoopIDToken="1135" ID="80004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.1 UnitOfMeasure.Name]" LoopIDToken="1135" ID="90001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.2 UnitOfMeasure.Description]" LoopIDToken="1135" ID="90002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.1 ItemInstance.InternalCode]" LoopIDToken="1135" ID="100001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.2 ItemInstance.Description]" LoopIDToken="1135" ID="100002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.3 ItemInstance.SerialNumber]" LoopIDToken="1135" ID="100003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.4 ItemInstance.Sku]" LoopIDToken="1135" ID="100004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.5 ItemInstance.SourceSystem]" LoopIDToken="1135" ID="100005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.6 ItemInstance.MasterSystem]" LoopIDToken="1135" ID="100006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.1 FulfillmentSubLines.Id]" LoopIDToken="1134" ID="110001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.2 FulfillmentSubLines.Version]" LoopIDToken="1134" ID="110002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.3 FulfillmentSubLines.DocumentReference]" LoopIDToken="1134" ID="110003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.4 FulfillmentSubLines.Quantity]" LoopIDToken="1134" ID="110004" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.5 FulfillmentSubLines.TrackingNumber]" LoopIDToken="1134" ID="110005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.6 FulfillmentSubLines.SourceSystem]" LoopIDToken="1134" ID="110006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.7 FulfillmentSubLines.MasterSystem]" LoopIDToken="1134" ID="110007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.8 FulfillmentSubLines.QuantityFulfilled]" LoopIDToken="1134" ID="110008" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.9 FulfillmentSubLines.QuantityRemaining]" LoopIDToken="1134" ID="110009" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.1 Location.InternalObjectId]" LoopIDToken="1134" ID="120001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.2 Location.Id]" LoopIDToken="1134" ID="120002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.3 Location.Version]" LoopIDToken="1134" ID="120003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.4 Location.Name]" LoopIDToken="1134" ID="120004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.5 Location.Description]" LoopIDToken="1134" ID="120005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.6 Location.Active]" LoopIDToken="1134" ID="120006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.7 Location.OpenTime]" LoopIDToken="1134" ID="120007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.8 Location.CloseTime]" LoopIDToken="1134" ID="120008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.9 Location.MinutesPerTimeSlot]" LoopIDToken="1134" ID="120009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.10 Location.ApptsBeforeWarning]" LoopIDToken="1134" ID="120010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.11 Location.CreatedDate]" LoopIDToken="1134" ID="120011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.12 Location.CreatedBy]" LoopIDToken="1134" ID="120012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.13 Location.ModifiedDate]" LoopIDToken="1134" ID="120013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.14 Location.ModifiedBy]" LoopIDToken="1134" ID="120014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.15 Location.ScheduleDurationMinutes]" LoopIDToken="1134" ID="120015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.16 Location.AccountingEntity]" LoopIDToken="1134" ID="120016" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.17 Location.Note]" LoopIDToken="1134" ID="120017" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.18 Location.Status]" LoopIDToken="1134" ID="120018" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.19 Location.StatusReason]" LoopIDToken="1134" ID="120019" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.20 Location.StatusEffectiveDateTime]" LoopIDToken="1134" ID="120020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.21 Location.Virtual]" LoopIDToken="1134" ID="120021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.22 Location.SourceSystem]" LoopIDToken="1134" ID="120022" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.23 Location.MasterSystem]" LoopIDToken="1134" ID="120023" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.24 Location.IntegrationLockStatus]" LoopIDToken="1134" ID="120024" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.25 Location.IntegrationSource]" LoopIDToken="1134" ID="120025" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.26 Location.BusinessObjectName]" LoopIDToken="1134" ID="120026" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.27 Location.UdfRowExists]" LoopIDToken="1134" ID="120027" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.28 Location.LocationType]" LoopIDToken="1134" ID="120028" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.29 Location.Campus]" LoopIDToken="1134" ID="120029" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.1 Item.ProductCode]" LoopIDToken="1135" ID="130001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.2 Item.Description]" LoopIDToken="1135" ID="130002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.3 Item.Lot]" LoopIDToken="1135" ID="130003" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.4 Item.Serial]" LoopIDToken="1135" ID="130004" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.5 Item.TrackOnInbound]" LoopIDToken="1135" ID="130005" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.6 Item.Expiry]" LoopIDToken="1135" ID="130006" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.7 Item.ManufactureDate]" LoopIDToken="1135" ID="130007" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.8 Item.CountryOfOrigin]" LoopIDToken="1135" ID="130008" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:13.9 Item.SourceSystem]" LoopIDToken="1135" ID="130009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.10 Item.MasterSystem]" LoopIDToken="1135" ID="130010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.11 Item.ShortItemDescription]" LoopIDToken="1135" ID="130011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.1 ItemGroup.Name]" LoopIDToken="1135" ID="140001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.2 ItemGroup.SourceSystem]" LoopIDToken="1135" ID="140002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.3 ItemGroup.MasterSystem]" LoopIDToken="1135" ID="140003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.1 ItemInstances.InternalCode]" LoopIDToken="2001" ID="150001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.2 ItemInstances.Description]" LoopIDToken="2001" ID="150002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.3 ItemInstances.SerialNumber]" LoopIDToken="2001" ID="150003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.4 ItemInstances.Sku]" LoopIDToken="2001" ID="150004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.5 ItemInstances.SourceSystem]" LoopIDToken="2001" ID="150005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.6 ItemInstances.MasterSystem]" LoopIDToken="2001" ID="150006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.1 FulfillmentParties.AddressType]" LoopIDToken="1145" ID="160001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.2 FulfillmentParties.Name]" LoopIDToken="1145" ID="160002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.3 FulfillmentParties.AttentionTo]" LoopIDToken="1145" ID="160003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.4 FulfillmentParties.Address1]" LoopIDToken="1145" ID="160004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.5 FulfillmentParties.Address2]" LoopIDToken="1145" ID="160005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.6 FulfillmentParties.City]" LoopIDToken="1145" ID="160006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.7 FulfillmentParties.State]" LoopIDToken="1145" ID="160007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.8 FulfillmentParties.PostalCode]" LoopIDToken="1145" ID="160008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.9 FulfillmentParties.Country]" LoopIDToken="1145" ID="160009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.10 FulfillmentParties.PhoneNumber]" LoopIDToken="1145" ID="160010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.11 FulfillmentParties.PhoneExtension]" LoopIDToken="1145" ID="160011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.12 FulfillmentParties.Email]" LoopIDToken="1145" ID="160012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.13 FulfillmentParties.Description]" LoopIDToken="1145" ID="160013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.14 FulfillmentParties.SourceSystem]" LoopIDToken="1145" ID="160014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.15 FulfillmentParties.MasterSystem]" LoopIDToken="1145" ID="160015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.1 PartyType.IsSystem]" LoopIDToken="1145" ID="170001" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:17.2 PartyType.Name]" LoopIDToken="1145" ID="170002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.3 PartyType.Description]" LoopIDToken="1145" ID="170003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.4 PartyType.SourceSystem]" LoopIDToken="1145" ID="170004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.5 PartyType.MasterSystem]" LoopIDToken="1145" ID="170005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.1 FulfillmentParties.AddressType]" LoopIDToken="1145" ID="180001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.2 FulfillmentParties.Name]" LoopIDToken="1145" ID="180002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.3 FulfillmentParties.AttentionTo]" LoopIDToken="1145" ID="180003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.4 FulfillmentParties.Address1]" LoopIDToken="1145" ID="180004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.5 FulfillmentParties.Address2]" LoopIDToken="1145" ID="180005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.6 FulfillmentParties.City]" LoopIDToken="1145" ID="180006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.7 FulfillmentParties.State]" LoopIDToken="1145" ID="180007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.8 FulfillmentParties.PostalCode]" LoopIDToken="1145" ID="180008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.9 FulfillmentParties.Country]" LoopIDToken="1145" ID="180009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.10 FulfillmentParties.PhoneNumber]" LoopIDToken="1145" ID="180010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.11 FulfillmentParties.PhoneExtension]" LoopIDToken="1145" ID="180011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.12 FulfillmentParties.Email]" LoopIDToken="1145" ID="180012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.13 FulfillmentParties.Description]" LoopIDToken="1145" ID="180013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.14 FulfillmentParties.SourceSystem]" LoopIDToken="1145" ID="180014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.15 FulfillmentParties.MasterSystem]" LoopIDToken="1145" ID="180015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:19.1 PartyType.IsSystem]" LoopIDToken="1145" ID="190001" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:19.2 PartyType.Name]" LoopIDToken="1145" ID="190002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:19.3 PartyType.Description]" LoopIDToken="1145" ID="190003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:19.4 PartyType.SourceSystem]" LoopIDToken="1145" ID="190004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:19.5 PartyType.MasterSystem]" LoopIDToken="1145" ID="190005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.1 FulfillmentParties.AddressType]" LoopIDToken="1145" ID="200001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.2 FulfillmentParties.Name]" LoopIDToken="1145" ID="200002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.3 FulfillmentParties.AttentionTo]" LoopIDToken="1145" ID="200003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.4 FulfillmentParties.Address1]" LoopIDToken="1145" ID="200004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.5 FulfillmentParties.Address2]" LoopIDToken="1145" ID="200005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.6 FulfillmentParties.City]" LoopIDToken="1145" ID="200006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.7 FulfillmentParties.State]" LoopIDToken="1145" ID="200007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.8 FulfillmentParties.PostalCode]" LoopIDToken="1145" ID="200008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.9 FulfillmentParties.Country]" LoopIDToken="1145" ID="200009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.10 FulfillmentParties.PhoneNumber]" LoopIDToken="1145" ID="200010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.11 FulfillmentParties.PhoneExtension]" LoopIDToken="1145" ID="200011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.12 FulfillmentParties.Email]" LoopIDToken="1145" ID="200012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.13 FulfillmentParties.Description]" LoopIDToken="1145" ID="200013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.14 FulfillmentParties.SourceSystem]" LoopIDToken="1145" ID="200014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.15 FulfillmentParties.MasterSystem]" LoopIDToken="1145" ID="200015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.1 PartyType.IsSystem]" LoopIDToken="1145" ID="210001" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:21.2 PartyType.Name]" LoopIDToken="1145" ID="210002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.3 PartyType.Description]" LoopIDToken="1145" ID="210003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.4 PartyType.SourceSystem]" LoopIDToken="1145" ID="210004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.5 PartyType.MasterSystem]" LoopIDToken="1145" ID="210005" DataType="0" SubType="0" Size="0" />
       </Values>
+      <Loops>
+        <Loop LoopName="Item" LoopIDToken="1135" ParentLoopIDToken="0" />
+        <Loop LoopName="Contacts" LoopIDToken="1145" ParentLoopIDToken="0" />
+        <Loop LoopName="Pack" LoopIDToken="1134" ParentLoopIDToken="1135" />
+        <Loop LoopName="Loop_Row7" LoopIDToken="2000" ParentLoopIDToken="1135" />
+        <Loop LoopName="Loop_Row15" LoopIDToken="2001" ParentLoopIDToken="1135" />
+      </Loops>
       <Addresses />
       <ConvertItems />
       <ConvertHeaders />
       <FieldConversions />
       <ItemTransTitles />
       <Docs />
-      <Loops>
-        <Loop LoopName="Item" LoopIDToken="1135" ParentLoopIDToken="0" />
-        <Loop LoopName="Contacts" LoopIDToken="1145" ParentLoopIDToken="0" />
-        <Loop LoopName="Pack" LoopIDToken="1134" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row7" LoopIDToken="2000" ParentLoopIDToken="1999" />
-        <Loop LoopName="Loop_Row11" LoopIDToken="2001" ParentLoopIDToken="1999" />
-        <Loop LoopName="Loop_Row15" LoopIDToken="2002" ParentLoopIDToken="1999" />
-        <Loop LoopName="Loop_Row16" LoopIDToken="2003" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row18" LoopIDToken="2004" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row20" LoopIDToken="2005" ParentLoopIDToken="0" />
-      </Loops>
       <AltDocs />
       <RowLinks />
       <FormatFrameworkParameters />
@@ -1980,7 +1970,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="TotalVariants" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="variants" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="variants" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2000" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -2010,7 +2000,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="options" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="options" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2001" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -2018,7 +2008,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="position" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="images" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+        <Row Name="images" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2002" ParentLoopIDToken="0" ChildOf="1">
           <Columns>
             <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -2032,12 +2022,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="presentment_prices" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="2">
+        <Row Name="presentment_prices" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2003" ParentLoopIDToken="2000" ChildOf="2">
           <Columns>
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="selectedOptions" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="2">
+        <Row Name="selectedOptions" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2004" ParentLoopIDToken="2000" ChildOf="2">
           <Columns>
             <Column Title="name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -2055,12 +2045,12 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="amount" DataType="4" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="values" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="3">
+        <Row Name="values" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2005" ParentLoopIDToken="2001" ChildOf="3">
           <Columns>
             <Column Title="values" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="4">
+        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2006" ParentLoopIDToken="2002" ChildOf="4">
           <Columns>
             <Column Title="variant_ids" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
@@ -2079,7 +2069,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="11">
+        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2007" ParentLoopIDToken="0" ChildOf="11">
           <Columns>
             <Column Title="variant_ids" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
@@ -2089,7 +2079,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="InventoryLevels" Description="product\Inventory" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13">
+        <Row Name="InventoryLevels" Description="product\Inventory" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2008" ParentLoopIDToken="0" ChildOf="13">
           <Columns>
             <Column Title="AvailableAdjustment" DataType="3" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="AvailableSet" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -2118,55 +2108,55 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:2.12 product.tags]" LoopIDToken="0" ID="20012" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.13 product.admin_graphql_api_id]" LoopIDToken="0" ID="20013" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:2.14 product.TotalVariants]" LoopIDToken="0" ID="20014" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.1 variants.id]" LoopIDToken="1999" ID="30001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.2 variants.product_id]" LoopIDToken="1999" ID="30002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.3 variants.title]" LoopIDToken="1999" ID="30003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.4 variants.price]" LoopIDToken="1999" ID="30004" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.5 variants.sku]" LoopIDToken="1999" ID="30005" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.6 variants.position]" LoopIDToken="1999" ID="30006" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.7 variants.inventory_policy]" LoopIDToken="1999" ID="30007" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.8 variants.compare_at_price]" LoopIDToken="1999" ID="30008" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.9 variants.fulfillment_service]" LoopIDToken="1999" ID="30009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.10 variants.inventory_management]" LoopIDToken="1999" ID="30010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.11 variants.option1]" LoopIDToken="1999" ID="30011" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.12 variants.option2]" LoopIDToken="1999" ID="30012" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.13 variants.option3]" LoopIDToken="1999" ID="30013" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.14 variants.created_at]" LoopIDToken="1999" ID="30014" DataType="11" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.15 variants.updated_at]" LoopIDToken="1999" ID="30015" DataType="11" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.16 variants.taxable]" LoopIDToken="1999" ID="30016" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:3.17 variants.barcode]" LoopIDToken="1999" ID="30017" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.18 variants.grams]" LoopIDToken="1999" ID="30018" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.19 variants.image_id]" LoopIDToken="1999" ID="30019" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.20 variants.weight]" LoopIDToken="1999" ID="30020" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.21 variants.weight_unit]" LoopIDToken="1999" ID="30021" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.22 variants.inventory_item_id]" LoopIDToken="1999" ID="30022" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.23 variants.inventory_quantity]" LoopIDToken="1999" ID="30023" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.24 variants.old_inventory_quantity]" LoopIDToken="1999" ID="30024" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:3.25 variants.requires_shipping]" LoopIDToken="1999" ID="30025" DataType="12" SubType="3" Size="0" />
-        <Value CalcStr="[R:3.26 variants.admin_graphql_api_id]" LoopIDToken="1999" ID="30026" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.1 options.id]" LoopIDToken="2000" ID="40001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.2 options.product_id]" LoopIDToken="2000" ID="40002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.3 options.name]" LoopIDToken="2000" ID="40003" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:4.4 options.position]" LoopIDToken="2000" ID="40004" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.1 images.id]" LoopIDToken="2001" ID="50001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.2 images.product_id]" LoopIDToken="2001" ID="50002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.3 images.position]" LoopIDToken="2001" ID="50003" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.4 images.created_at]" LoopIDToken="2001" ID="50004" DataType="11" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.5 images.updated_at]" LoopIDToken="2001" ID="50005" DataType="11" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.6 images.alt]" LoopIDToken="2001" ID="50006" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.7 images.width]" LoopIDToken="2001" ID="50007" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.8 images.height]" LoopIDToken="2001" ID="50008" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.9 images.src]" LoopIDToken="2001" ID="50009" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:5.10 images.admin_graphql_api_id]" LoopIDToken="2001" ID="50010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:6.1 presentment_prices.Column]" LoopIDToken="2002" ID="60001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:7.1 selectedOptions.name]" LoopIDToken="2003" ID="70001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:7.2 selectedOptions.value]" LoopIDToken="2003" ID="70002" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.1 price.currency_code]" LoopIDToken="2002" ID="80001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:8.2 price.amount]" LoopIDToken="2002" ID="80002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:9.1 compare_at_price.currency_code]" LoopIDToken="2002" ID="90001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:9.2 compare_at_price.amount]" LoopIDToken="2002" ID="90002" DataType="4" SubType="0" Size="0" />
-        <Value CalcStr="[R:10.1 values.values]" LoopIDToken="2004" ID="100001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:11.1 variant_ids.variant_ids]" LoopIDToken="2005" ID="110001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.1 variants.id]" LoopIDToken="2000" ID="30001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.2 variants.product_id]" LoopIDToken="2000" ID="30002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.3 variants.title]" LoopIDToken="2000" ID="30003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.4 variants.price]" LoopIDToken="2000" ID="30004" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.5 variants.sku]" LoopIDToken="2000" ID="30005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.6 variants.position]" LoopIDToken="2000" ID="30006" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.7 variants.inventory_policy]" LoopIDToken="2000" ID="30007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.8 variants.compare_at_price]" LoopIDToken="2000" ID="30008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.9 variants.fulfillment_service]" LoopIDToken="2000" ID="30009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.10 variants.inventory_management]" LoopIDToken="2000" ID="30010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.11 variants.option1]" LoopIDToken="2000" ID="30011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.12 variants.option2]" LoopIDToken="2000" ID="30012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.13 variants.option3]" LoopIDToken="2000" ID="30013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.14 variants.created_at]" LoopIDToken="2000" ID="30014" DataType="11" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.15 variants.updated_at]" LoopIDToken="2000" ID="30015" DataType="11" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.16 variants.taxable]" LoopIDToken="2000" ID="30016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:3.17 variants.barcode]" LoopIDToken="2000" ID="30017" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.18 variants.grams]" LoopIDToken="2000" ID="30018" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.19 variants.image_id]" LoopIDToken="2000" ID="30019" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.20 variants.weight]" LoopIDToken="2000" ID="30020" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.21 variants.weight_unit]" LoopIDToken="2000" ID="30021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.22 variants.inventory_item_id]" LoopIDToken="2000" ID="30022" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.23 variants.inventory_quantity]" LoopIDToken="2000" ID="30023" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.24 variants.old_inventory_quantity]" LoopIDToken="2000" ID="30024" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.25 variants.requires_shipping]" LoopIDToken="2000" ID="30025" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:3.26 variants.admin_graphql_api_id]" LoopIDToken="2000" ID="30026" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.1 options.id]" LoopIDToken="2001" ID="40001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.2 options.product_id]" LoopIDToken="2001" ID="40002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.3 options.name]" LoopIDToken="2001" ID="40003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.4 options.position]" LoopIDToken="2001" ID="40004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.1 images.id]" LoopIDToken="2002" ID="50001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.2 images.product_id]" LoopIDToken="2002" ID="50002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.3 images.position]" LoopIDToken="2002" ID="50003" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.4 images.created_at]" LoopIDToken="2002" ID="50004" DataType="11" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.5 images.updated_at]" LoopIDToken="2002" ID="50005" DataType="11" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.6 images.alt]" LoopIDToken="2002" ID="50006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.7 images.width]" LoopIDToken="2002" ID="50007" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.8 images.height]" LoopIDToken="2002" ID="50008" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.9 images.src]" LoopIDToken="2002" ID="50009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.10 images.admin_graphql_api_id]" LoopIDToken="2002" ID="50010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.1 presentment_prices.Column]" LoopIDToken="2003" ID="60001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:7.1 selectedOptions.name]" LoopIDToken="2004" ID="70001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:7.2 selectedOptions.value]" LoopIDToken="2004" ID="70002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.1 price.currency_code]" LoopIDToken="2003" ID="80001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.2 price.amount]" LoopIDToken="2003" ID="80002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.1 compare_at_price.currency_code]" LoopIDToken="2003" ID="90001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.2 compare_at_price.amount]" LoopIDToken="2003" ID="90002" DataType="4" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.1 values.values]" LoopIDToken="2005" ID="100001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.1 variant_ids.variant_ids]" LoopIDToken="2006" ID="110001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:12.1 image.id]" LoopIDToken="0" ID="120001" DataType="3" SubType="0" Size="0" />
         <Value CalcStr="[R:12.2 image.product_id]" LoopIDToken="0" ID="120002" DataType="3" SubType="0" Size="0" />
         <Value CalcStr="[R:12.3 image.position]" LoopIDToken="0" ID="120003" DataType="3" SubType="0" Size="0" />
@@ -2177,20 +2167,30 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:12.8 image.height]" LoopIDToken="0" ID="120008" DataType="3" SubType="0" Size="0" />
         <Value CalcStr="[R:12.9 image.src]" LoopIDToken="0" ID="120009" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:12.10 image.admin_graphql_api_id]" LoopIDToken="0" ID="120010" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:13.1 variant_ids.variant_ids]" LoopIDToken="2006" ID="130001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.1 variant_ids.variant_ids]" LoopIDToken="2007" ID="130001" DataType="0" SubType="0" Size="0" />
         <Value CalcStr="[R:14.1 Inventory.Column]" LoopIDToken="0" ID="140001" DataType="0" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.1 InventoryLevels.AvailableAdjustment]" LoopIDToken="2007" ID="150001" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.2 InventoryLevels.AvailableSet]" LoopIDToken="2007" ID="150002" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:15.3 InventoryLevels.Available]" LoopIDToken="2007" ID="150003" DataType="3" SubType="0" Size="0" />
-        <Value CalcStr="[R:16.1 Location.Name]" LoopIDToken="2007" ID="160001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.1 InventoryLevels.AvailableAdjustment]" LoopIDToken="2008" ID="150001" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.2 InventoryLevels.AvailableSet]" LoopIDToken="2008" ID="150002" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.3 InventoryLevels.Available]" LoopIDToken="2008" ID="150003" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:16.1 Location.Name]" LoopIDToken="2008" ID="160001" DataType="0" SubType="0" Size="0" />
       </Values>
+      <Loops>
+        <Loop LoopName="Loop_Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row6" LoopIDToken="2003" ParentLoopIDToken="2000" />
+        <Loop LoopName="Loop_Row7" LoopIDToken="2004" ParentLoopIDToken="2000" />
+        <Loop LoopName="Loop_Row10" LoopIDToken="2005" ParentLoopIDToken="2001" />
+        <Loop LoopName="Loop_Row11" LoopIDToken="2006" ParentLoopIDToken="2002" />
+        <Loop LoopName="Loop_Row13" LoopIDToken="2007" ParentLoopIDToken="0" />
+        <Loop LoopName="Loop_Row15" LoopIDToken="2008" ParentLoopIDToken="0" />
+      </Loops>
       <Addresses />
       <ConvertItems />
       <ConvertHeaders />
       <FieldConversions />
       <ItemTransTitles />
       <Docs />
-      <Loops />
       <AltDocs />
       <RowLinks />
       <FormatFrameworkParameters />
