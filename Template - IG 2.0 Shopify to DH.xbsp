@@ -1320,21 +1320,21 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Loop LoopName="Address" LoopIDToken="1155" ParentLoopIDToken="0" />
         <Loop LoopName="Tax" LoopIDToken="1158" ParentLoopIDToken="0" />
         <Loop LoopName="TDS" LoopIDToken="1156" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row6" LoopIDToken="2003" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row37" LoopIDToken="2004" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row49" LoopIDToken="2005" ParentLoopIDToken="1155" />
-        <Loop LoopName="Loop_Row56" LoopIDToken="2006" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row57" LoopIDToken="2007" ParentLoopIDToken="2006" />
-        <Loop LoopName="Loop_Row58" LoopIDToken="2008" ParentLoopIDToken="2006" />
-        <Loop LoopName="Loop_Row60" LoopIDToken="2009" ParentLoopIDToken="2006" />
-        <Loop LoopName="Loop_Row64" LoopIDToken="2010" ParentLoopIDToken="2009" />
-        <Loop LoopName="Loop_Row74" LoopIDToken="2011" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row86" LoopIDToken="2012" ParentLoopIDToken="2011" />
-        <Loop LoopName="Loop_Row95" LoopIDToken="2013" ParentLoopIDToken="2011" />
-        <Loop LoopName="Loop_Row97" LoopIDToken="2014" ParentLoopIDToken="2011" />
+        <Loop LoopName="Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
+        <Loop LoopName="Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
+        <Loop LoopName="Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
+        <Loop LoopName="Row6" LoopIDToken="2003" ParentLoopIDToken="0" />
+        <Loop LoopName="Row37" LoopIDToken="2004" ParentLoopIDToken="1135" />
+        <Loop LoopName="Row49" LoopIDToken="2005" ParentLoopIDToken="1155" />
+        <Loop LoopName="Row56" LoopIDToken="2006" ParentLoopIDToken="0" />
+        <Loop LoopName="Row57" LoopIDToken="2007" ParentLoopIDToken="2006" />
+        <Loop LoopName="Row58" LoopIDToken="2008" ParentLoopIDToken="2006" />
+        <Loop LoopName="Row60" LoopIDToken="2009" ParentLoopIDToken="2006" />
+        <Loop LoopName="Row64" LoopIDToken="2010" ParentLoopIDToken="2009" />
+        <Loop LoopName="Row74" LoopIDToken="2011" ParentLoopIDToken="0" />
+        <Loop LoopName="Row86" LoopIDToken="2012" ParentLoopIDToken="2011" />
+        <Loop LoopName="Row95" LoopIDToken="2013" ParentLoopIDToken="2011" />
+        <Loop LoopName="Row97" LoopIDToken="2014" ParentLoopIDToken="2011" />
       </Loops>
       <Addresses />
       <ConvertItems />
@@ -1881,8 +1881,8 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Loop LoopName="Item" LoopIDToken="1135" ParentLoopIDToken="0" />
         <Loop LoopName="Contacts" LoopIDToken="1145" ParentLoopIDToken="0" />
         <Loop LoopName="Pack" LoopIDToken="1134" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row7" LoopIDToken="2000" ParentLoopIDToken="1135" />
-        <Loop LoopName="Loop_Row15" LoopIDToken="2001" ParentLoopIDToken="1135" />
+        <Loop LoopName="Row7" LoopIDToken="2000" ParentLoopIDToken="1135" />
+        <Loop LoopName="Row15" LoopIDToken="2001" ParentLoopIDToken="1135" />
       </Loops>
       <Addresses />
       <ConvertItems />
@@ -2175,15 +2175,15 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
         <Value CalcStr="[R:16.1 Location.Name]" LoopIDToken="2008" ID="160001" DataType="0" SubType="0" Size="0" />
       </Values>
       <Loops>
-        <Loop LoopName="Loop_Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row6" LoopIDToken="2003" ParentLoopIDToken="2000" />
-        <Loop LoopName="Loop_Row7" LoopIDToken="2004" ParentLoopIDToken="2000" />
-        <Loop LoopName="Loop_Row10" LoopIDToken="2005" ParentLoopIDToken="2001" />
-        <Loop LoopName="Loop_Row11" LoopIDToken="2006" ParentLoopIDToken="2002" />
-        <Loop LoopName="Loop_Row13" LoopIDToken="2007" ParentLoopIDToken="0" />
-        <Loop LoopName="Loop_Row15" LoopIDToken="2008" ParentLoopIDToken="0" />
+        <Loop LoopName="Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
+        <Loop LoopName="Row4" LoopIDToken="2001" ParentLoopIDToken="0" />
+        <Loop LoopName="Row5" LoopIDToken="2002" ParentLoopIDToken="0" />
+        <Loop LoopName="Row6" LoopIDToken="2003" ParentLoopIDToken="2000" />
+        <Loop LoopName="Row7" LoopIDToken="2004" ParentLoopIDToken="2000" />
+        <Loop LoopName="Row10" LoopIDToken="2005" ParentLoopIDToken="2001" />
+        <Loop LoopName="Row11" LoopIDToken="2006" ParentLoopIDToken="2002" />
+        <Loop LoopName="Row13" LoopIDToken="2007" ParentLoopIDToken="0" />
+        <Loop LoopName="Row15" LoopIDToken="2008" ParentLoopIDToken="0" />
       </Loops>
       <Addresses />
       <ConvertItems />
