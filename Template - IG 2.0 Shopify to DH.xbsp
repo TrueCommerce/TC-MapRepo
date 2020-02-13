@@ -2953,7 +2953,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="ItemInstances" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+        <Row Name="ItemInstances" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="True">
           <Columns>
             <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -3003,7 +3003,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="UdfRowExists" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From SelectedOptions)" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13" Cond1CalcStr1="[T:70001]" Cond1CalcStr2="" Cond1Condition="2" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From SelectedOptions)" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13" Cond1CalcStr1="[T:70001]" Cond1CalcStr2="" Cond1Condition="2" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="True">
           <Columns>
             <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -3028,7 +3028,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="15" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="15" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="True">
           <Columns>
             <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
@@ -3127,7 +3127,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
-        <Row Name="Inventories" Description="ItemInstances\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+        <Row Name="Inventories" Description="ItemInstances\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="True">
           <Columns>
             <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
