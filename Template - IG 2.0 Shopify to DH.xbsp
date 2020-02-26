@@ -1346,7 +1346,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
       <RowLinks />
       <FormatFrameworkParameters />
     </ImportFormat>
-    <ImportFormat Name="DataHub Fulfilment to Shopify Fulfilment" FormatCategory="1" FormatID="1f356c2f-fea3-40c9-8bdd-f6c3ac4e2202">
+    <ImportFormat Name="DataHub Fulfillment to Shopify Fulfillment" FormatCategory="1" FormatID="1f356c2f-fea3-40c9-8bdd-f6c3ac4e2202">
       <Type>1</Type>
       <TPName />
       <FormatIdentifierRow>-1</FormatIdentifierRow>
@@ -2195,6 +2195,882 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
       <RowLinks />
       <FormatFrameworkParameters />
     </ImportFormat>
+    <ImportFormat Name="DataHub Item to Shopify Product" FormatCategory="1" FormatID="93b7e8b9-756e-4f72-9f04-1d2af4e4f1bb">
+      <Type>1</Type>
+      <TPName />
+      <FormatIdentifierRow>0</FormatIdentifierRow>
+      <FormatIdentifierCell>0</FormatIdentifierCell>
+      <FormatIdentifierStr />
+      <FormatIdentifierExactMatch>False</FormatIdentifierExactMatch>
+      <SplitFile>False</SplitFile>
+      <HeaderFileIDCol>0</HeaderFileIDCol>
+      <HeaderFileColCount>0</HeaderFileColCount>
+      <ItemFileIDCol>0</ItemFileIDCol>
+      <ItemFileColCount>0</ItemFileColCount>
+      <HeaderIncluded>False</HeaderIncluded>
+      <HeaderMustBeInOrder>False</HeaderMustBeInOrder>
+      <LinkTransName />
+      <LinkTransIDColStr />
+      <LinkPartnerColStr />
+      <LinkStoreNumColStr />
+      <LinkTransIDColStr2 />
+      <IgnoreRow>0</IgnoreRow>
+      <DocIDRow>-1</DocIDRow>
+      <DocIDCol>-1</DocIDCol>
+      <AuxFormatOnly>False</AuxFormatOnly>
+      <AccountIDCol>0</AccountIDCol>
+      <AccountIDColStr />
+      <ItemIDCol>0</ItemIDCol>
+      <ItemIDRow>0</ItemIDRow>
+      <ItemIDColStr />
+      <Sequential>False</Sequential>
+      <ItemCountRow>0</ItemCountRow>
+      <ItemCountPosition>0</ItemCountPosition>
+      <TermsDescriptionColName />
+      <TermsStartDateColName />
+      <UserChargeAmountCalcStr />
+      <IntegrationType>0</IntegrationType>
+      <IntegrationFormat>0</IntegrationFormat>
+      <IncludeEmptyColumnValues>False</IncludeEmptyColumnValues>
+      <DisableCrossRowLooping>False</DisableCrossRowLooping>
+      <SingleTransactionDocument>True</SingleTransactionDocument>
+      <OverrideFileSep>5</OverrideFileSep>
+      <OverrideFormatType>1</OverrideFormatType>
+      <OverrideFileExt>json</OverrideFileExt>
+      <OverrideFieldDelim />
+      <RepeatHeaderInfo>False</RepeatHeaderInfo>
+      <DocIDToken>0</DocIDToken>
+      <RowIDRow>-1</RowIDRow>
+      <RowID>-1</RowID>
+      <RowIDToken>0</RowIDToken>
+      <StoreIDRow>-1</StoreIDRow>
+      <StoreID>-1</StoreID>
+      <TransTypeIDStr />
+      <CompanyIDColStr />
+      <Rows>
+        <Row Name="StartOfTransaction" Description="" RowType="1" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="-1">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ProductCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Description" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NextStockCountDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="StockCountDays" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Lot" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Serial" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="TrackOnInbound" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Expiry" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ManufactureDate" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CountryOfOrigin" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DisplayCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Make" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Model" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UpcId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Service" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CatchWeight" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="FixedQuantity" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Locked" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ShelfLifeDuration" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="BestBeforeDuration" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="LeadTimeDuration" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ImageReferenceId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MaximumLotSizeQuantity" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MinimumLotSizeQuantity" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AlternateDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Length" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Width" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Height" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Cube" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DefaultCountryOfOrigin" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="HarmonizedTarrifCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CustomerItemNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UnitWeight" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InnerPackSize" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="OuterPackSize" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="EanNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="GtinNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UpcCaseCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NationalDrugCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IsbnNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemClass" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ShortItemDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternationalCommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="LtlCommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="PackQuantity" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NmfcCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NmfcSubCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="PicturePath" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Customer" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DefaultLocation" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="FreightClass" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Status" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SalesAccount" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CostOfGoodsAccount" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InventoryAccount" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="LotSizeUnitOfMeasureDetail" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DimensionUnitOfMeasureDetail" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemGroup" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Description" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Items" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2000" ParentLoopIDToken="0" ChildOf="1">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2001" ParentLoopIDToken="0" ChildOf="3">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UnitOfMeasureDetails" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2002" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemPartyReferences" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2003" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemSpecifications" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2004" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemValues" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2005" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemHazardousMaterials" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2006" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemStatusHistories" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2007" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="LocationItems" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2008" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ReceiptLines" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2009" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemInstances" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2010" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Description" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SerialNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Sku" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DefaultCountryOfOrigin" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="HarmonizedTarrifCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CustomerItemNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UnitWeight" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InnerPackSize" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="OuterPackSize" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="EanNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="GtinNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UpcCaseCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NationalDrugCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IsbnNumber" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemClass" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ShortItemDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternationalCommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="LtlCommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CommodityDescription" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="PackQuantity" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NmfcCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="NmfcSubCode" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="PicturePath" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Length" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Width" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Height" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Cube" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Upc" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Item" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DefaultBin" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SecondaryBin" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="FreightClass" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="DimensionUnitOfMeasureDetail" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From SelectedOptions)" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2011" ParentLoopIDToken="2010" ChildOf="13">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeIdentifier" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeValue" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeType" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\ItemInstanceAttributes\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="14">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2012" ParentLoopIDToken="2011" ChildOf="15">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From option1)" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeIdentifier" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeValue" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeType" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\ItemInstanceAttributes\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="17">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2013" ParentLoopIDToken="2010" ChildOf="18">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From option2)" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeIdentifier" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeValue" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeType" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\ItemInstanceAttributes\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="20">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2014" ParentLoopIDToken="2010" ChildOf="21">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ItemInstanceAttributes" Description="ItemInstances\  (From option3)" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeIdentifier" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeValue" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AttributeType" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\ItemInstanceAttributes\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="23">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\ItemInstanceAttributes\UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2015" ParentLoopIDToken="2010" ChildOf="24">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Inventories" Description="ItemInstances\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2016" ParentLoopIDToken="2010" ChildOf="13">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="BaseQuantity" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Quantity" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ExternalId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UnitOfMeasure" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="InventoryLocation" Description="ItemInstances\Inventories\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="26">
+          <Columns>
+            <Column Title="BusinessObjectName" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="LocationIdentifier" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedBy" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="CreatedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ModifiedDate" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="SourceSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Bin" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Inventories" Description="ItemInstances\Inventories\InventoryLocation\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2017" ParentLoopIDToken="2016" ChildOf="27">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="InventoryAllocationfulfillFroms" Description="ItemInstances\Inventories\InventoryLocation\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2018" ParentLoopIDToken="2016" ChildOf="27">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="InventoryLocationAttributes" Description="ItemInstances\Inventories\InventoryLocation\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2019" ParentLoopIDToken="2016" ChildOf="27">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\Inventories\InventoryLocation\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="27">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="ItemInstances\Inventories\InventoryLocation\UdfContainer" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2020" ParentLoopIDToken="2016" ChildOf="31">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="InventoryAllocations" Description="ItemInstances\Inventories\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2021" ParentLoopIDToken="2016" ChildOf="26">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="VendorItemInstanceXReves" Description="ItemInstances\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2022" ParentLoopIDToken="2010" ChildOf="13">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="FulfillmentLines" Description="ItemInstances\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2023" ParentLoopIDToken="2010" ChildOf="13">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="ItemInstances\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2024" ParentLoopIDToken="2010" ChildOf="36">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="FulfillmentLines" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2025" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="VendorItemXReves" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2026" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Vendor" Description="VendorItemXReves\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="39">
+          <Columns>
+            <Column Title="InternalObjectId" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Id" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Version" DataType="3" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="FederalID" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="ExternalId" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="VendorVisibility" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Documents" Description="VendorItemXReves\Vendor\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2027" ParentLoopIDToken="2026" ChildOf="40">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="VendorItemXReves" Description="VendorItemXReves\Vendor\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2028" ParentLoopIDToken="2026" ChildOf="40">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="VendorItemInstanceXReves" Description="VendorItemXReves\Vendor\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2029" ParentLoopIDToken="2026" ChildOf="40">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="VendorItemXReves\Vendor\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="40">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="VendorItemXReves\Vendor\UdfContainer" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2030" ParentLoopIDToken="2026" ChildOf="44">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="VendorItemXReves\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="39">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="VendorItemXReves\UdfContainer" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2031" ParentLoopIDToken="2026" ChildOf="46">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="ContainerItems" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2032" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfContainer" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="UdfNameValuePairs" Description="UdfContainer\" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="2033" ParentLoopIDToken="0" ChildOf="49">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+      </Rows>
+      <Values>
+        <Value CalcStr="[R:1.1 StartOfTransaction.BusinessObjectName]" LoopIDToken="0" ID="10001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.2 StartOfTransaction.InternalObjectId]" LoopIDToken="0" ID="10002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.3 StartOfTransaction.Id]" LoopIDToken="0" ID="10003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.4 StartOfTransaction.Version]" LoopIDToken="0" ID="10004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.5 StartOfTransaction.CreatedDate]" LoopIDToken="0" ID="10005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.6 StartOfTransaction.CreatedBy]" LoopIDToken="0" ID="10006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.7 StartOfTransaction.ModifiedDate]" LoopIDToken="0" ID="10007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.8 StartOfTransaction.ModifiedBy]" LoopIDToken="0" ID="10008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.9 StartOfTransaction.ProductCode]" LoopIDToken="0" ID="10009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.10 StartOfTransaction.Description]" LoopIDToken="0" ID="10010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.11 StartOfTransaction.NextStockCountDate]" LoopIDToken="0" ID="10011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.12 StartOfTransaction.StockCountDays]" LoopIDToken="0" ID="10012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.13 StartOfTransaction.Lot]" LoopIDToken="0" ID="10013" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.14 StartOfTransaction.Serial]" LoopIDToken="0" ID="10014" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.15 StartOfTransaction.TrackOnInbound]" LoopIDToken="0" ID="10015" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.16 StartOfTransaction.Expiry]" LoopIDToken="0" ID="10016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.17 StartOfTransaction.ManufactureDate]" LoopIDToken="0" ID="10017" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.18 StartOfTransaction.CountryOfOrigin]" LoopIDToken="0" ID="10018" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:1.19 StartOfTransaction.DisplayCode]" LoopIDToken="0" ID="10019" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.20 StartOfTransaction.Make]" LoopIDToken="0" ID="10020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.21 StartOfTransaction.Model]" LoopIDToken="0" ID="10021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.22 StartOfTransaction.UpcId]" LoopIDToken="0" ID="10022" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.23 StartOfTransaction.Service]" LoopIDToken="0" ID="10023" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.24 StartOfTransaction.CatchWeight]" LoopIDToken="0" ID="10024" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.25 StartOfTransaction.FixedQuantity]" LoopIDToken="0" ID="10025" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.26 StartOfTransaction.Locked]" LoopIDToken="0" ID="10026" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.27 StartOfTransaction.ShelfLifeDuration]" LoopIDToken="0" ID="10027" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.28 StartOfTransaction.BestBeforeDuration]" LoopIDToken="0" ID="10028" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.29 StartOfTransaction.LeadTimeDuration]" LoopIDToken="0" ID="10029" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.30 StartOfTransaction.ImageReferenceId]" LoopIDToken="0" ID="10030" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.31 StartOfTransaction.MaximumLotSizeQuantity]" LoopIDToken="0" ID="10031" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.32 StartOfTransaction.MinimumLotSizeQuantity]" LoopIDToken="0" ID="10032" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.33 StartOfTransaction.AlternateDescription]" LoopIDToken="0" ID="10033" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.34 StartOfTransaction.Length]" LoopIDToken="0" ID="10034" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.35 StartOfTransaction.Width]" LoopIDToken="0" ID="10035" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.36 StartOfTransaction.Height]" LoopIDToken="0" ID="10036" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.37 StartOfTransaction.Cube]" LoopIDToken="0" ID="10037" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.38 StartOfTransaction.SourceSystem]" LoopIDToken="0" ID="10038" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.39 StartOfTransaction.MasterSystem]" LoopIDToken="0" ID="10039" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.40 StartOfTransaction.IntegrationLockStatus]" LoopIDToken="0" ID="10040" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.41 StartOfTransaction.DefaultCountryOfOrigin]" LoopIDToken="0" ID="10041" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.42 StartOfTransaction.HarmonizedTarrifCode]" LoopIDToken="0" ID="10042" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.43 StartOfTransaction.CustomerItemNumber]" LoopIDToken="0" ID="10043" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.44 StartOfTransaction.UnitWeight]" LoopIDToken="0" ID="10044" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.45 StartOfTransaction.InnerPackSize]" LoopIDToken="0" ID="10045" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.46 StartOfTransaction.OuterPackSize]" LoopIDToken="0" ID="10046" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.47 StartOfTransaction.EanNumber]" LoopIDToken="0" ID="10047" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.48 StartOfTransaction.GtinNumber]" LoopIDToken="0" ID="10048" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.49 StartOfTransaction.UpcCaseCode]" LoopIDToken="0" ID="10049" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.50 StartOfTransaction.NationalDrugCode]" LoopIDToken="0" ID="10050" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.51 StartOfTransaction.IsbnNumber]" LoopIDToken="0" ID="10051" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.52 StartOfTransaction.ItemClass]" LoopIDToken="0" ID="10052" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.53 StartOfTransaction.ShortItemDescription]" LoopIDToken="0" ID="10053" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.54 StartOfTransaction.InternationalCommodityDescription]" LoopIDToken="0" ID="10054" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.55 StartOfTransaction.LtlCommodityDescription]" LoopIDToken="0" ID="10055" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.56 StartOfTransaction.CommodityDescription]" LoopIDToken="0" ID="10056" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.57 StartOfTransaction.PackQuantity]" LoopIDToken="0" ID="10057" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.58 StartOfTransaction.NmfcCode]" LoopIDToken="0" ID="10058" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.59 StartOfTransaction.NmfcSubCode]" LoopIDToken="0" ID="10059" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.60 StartOfTransaction.PicturePath]" LoopIDToken="0" ID="10060" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.61 StartOfTransaction.Customer]" LoopIDToken="0" ID="10061" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.62 StartOfTransaction.DefaultLocation]" LoopIDToken="0" ID="10062" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.63 StartOfTransaction.FreightClass]" LoopIDToken="0" ID="10063" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.64 StartOfTransaction.Status]" LoopIDToken="0" ID="10064" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.65 StartOfTransaction.SalesAccount]" LoopIDToken="0" ID="10065" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.66 StartOfTransaction.CostOfGoodsAccount]" LoopIDToken="0" ID="10066" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.67 StartOfTransaction.InventoryAccount]" LoopIDToken="0" ID="10067" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.68 StartOfTransaction.LotSizeUnitOfMeasureDetail]" LoopIDToken="0" ID="10068" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.69 StartOfTransaction.DimensionUnitOfMeasureDetail]" LoopIDToken="0" ID="10069" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:1.70 StartOfTransaction.UdfRowExists]" LoopIDToken="0" ID="10070" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:2.1 ItemGroup.BusinessObjectName]" LoopIDToken="0" ID="20001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.2 ItemGroup.InternalObjectId]" LoopIDToken="0" ID="20002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.3 ItemGroup.Id]" LoopIDToken="0" ID="20003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.4 ItemGroup.Version]" LoopIDToken="0" ID="20004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.5 ItemGroup.Name]" LoopIDToken="0" ID="20005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.6 ItemGroup.Description]" LoopIDToken="0" ID="20006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.7 ItemGroup.CreatedDate]" LoopIDToken="0" ID="20007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.8 ItemGroup.CreatedBy]" LoopIDToken="0" ID="20008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.9 ItemGroup.ModifiedDate]" LoopIDToken="0" ID="20009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.10 ItemGroup.ModifiedBy]" LoopIDToken="0" ID="20010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.11 ItemGroup.SourceSystem]" LoopIDToken="0" ID="20011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.12 ItemGroup.MasterSystem]" LoopIDToken="0" ID="20012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.13 ItemGroup.IntegrationLockStatus]" LoopIDToken="0" ID="20013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:2.14 ItemGroup.UdfRowExists]" LoopIDToken="0" ID="20014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:3.1 Items.Column]" LoopIDToken="2000" ID="30001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:4.1 UdfContainer.Column]" LoopIDToken="0" ID="40001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.1 UdfNameValuePairs.Name]" LoopIDToken="2001" ID="50001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:5.2 UdfNameValuePairs.Value]" LoopIDToken="2001" ID="50002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:6.1 UnitOfMeasureDetails.Column]" LoopIDToken="2002" ID="60001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:7.1 ItemPartyReferences.Column]" LoopIDToken="2003" ID="70001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:8.1 ItemSpecifications.Column]" LoopIDToken="2004" ID="80001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:9.1 ItemValues.Column]" LoopIDToken="2005" ID="90001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:10.1 ItemHazardousMaterials.Column]" LoopIDToken="2006" ID="100001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:11.1 ItemStatusHistories.Column]" LoopIDToken="2007" ID="110001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:12.1 LocationItems.Column]" LoopIDToken="2008" ID="120001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:13.1 ReceiptLines.Column]" LoopIDToken="2009" ID="130001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.1 ItemInstances.BusinessObjectName]" LoopIDToken="2010" ID="140001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.2 ItemInstances.InternalObjectId]" LoopIDToken="2010" ID="140002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.3 ItemInstances.Id]" LoopIDToken="2010" ID="140003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.4 ItemInstances.Version]" LoopIDToken="2010" ID="140004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.5 ItemInstances.InternalCode]" LoopIDToken="2010" ID="140005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.6 ItemInstances.Description]" LoopIDToken="2010" ID="140006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.7 ItemInstances.SerialNumber]" LoopIDToken="2010" ID="140007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.8 ItemInstances.CreatedBy]" LoopIDToken="2010" ID="140008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.9 ItemInstances.ModifiedBy]" LoopIDToken="2010" ID="140009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.10 ItemInstances.CreatedDate]" LoopIDToken="2010" ID="140010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.11 ItemInstances.ModifiedDate]" LoopIDToken="2010" ID="140011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.12 ItemInstances.Sku]" LoopIDToken="2010" ID="140012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.13 ItemInstances.SourceSystem]" LoopIDToken="2010" ID="140013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.14 ItemInstances.MasterSystem]" LoopIDToken="2010" ID="140014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.15 ItemInstances.IntegrationLockStatus]" LoopIDToken="2010" ID="140015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.16 ItemInstances.DefaultCountryOfOrigin]" LoopIDToken="2010" ID="140016" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.17 ItemInstances.HarmonizedTarrifCode]" LoopIDToken="2010" ID="140017" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.18 ItemInstances.CustomerItemNumber]" LoopIDToken="2010" ID="140018" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.19 ItemInstances.UnitWeight]" LoopIDToken="2010" ID="140019" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.20 ItemInstances.InnerPackSize]" LoopIDToken="2010" ID="140020" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.21 ItemInstances.OuterPackSize]" LoopIDToken="2010" ID="140021" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.22 ItemInstances.EanNumber]" LoopIDToken="2010" ID="140022" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.23 ItemInstances.GtinNumber]" LoopIDToken="2010" ID="140023" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.24 ItemInstances.UpcCaseCode]" LoopIDToken="2010" ID="140024" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.25 ItemInstances.NationalDrugCode]" LoopIDToken="2010" ID="140025" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.26 ItemInstances.IsbnNumber]" LoopIDToken="2010" ID="140026" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.27 ItemInstances.ItemClass]" LoopIDToken="2010" ID="140027" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.28 ItemInstances.ShortItemDescription]" LoopIDToken="2010" ID="140028" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.29 ItemInstances.InternationalCommodityDescription]" LoopIDToken="2010" ID="140029" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.30 ItemInstances.LtlCommodityDescription]" LoopIDToken="2010" ID="140030" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.31 ItemInstances.CommodityDescription]" LoopIDToken="2010" ID="140031" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.32 ItemInstances.PackQuantity]" LoopIDToken="2010" ID="140032" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.33 ItemInstances.NmfcCode]" LoopIDToken="2010" ID="140033" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.34 ItemInstances.NmfcSubCode]" LoopIDToken="2010" ID="140034" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.35 ItemInstances.PicturePath]" LoopIDToken="2010" ID="140035" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.36 ItemInstances.Length]" LoopIDToken="2010" ID="140036" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.37 ItemInstances.Width]" LoopIDToken="2010" ID="140037" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.38 ItemInstances.Height]" LoopIDToken="2010" ID="140038" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.39 ItemInstances.Cube]" LoopIDToken="2010" ID="140039" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.40 ItemInstances.Upc]" LoopIDToken="2010" ID="140040" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.41 ItemInstances.Item]" LoopIDToken="2010" ID="140041" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.42 ItemInstances.DefaultBin]" LoopIDToken="2010" ID="140042" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.43 ItemInstances.SecondaryBin]" LoopIDToken="2010" ID="140043" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.44 ItemInstances.FreightClass]" LoopIDToken="2010" ID="140044" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.45 ItemInstances.DimensionUnitOfMeasureDetail]" LoopIDToken="2010" ID="140045" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:14.46 ItemInstances.UdfRowExists]" LoopIDToken="2010" ID="140046" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.1 ItemInstanceAttributes.BusinessObjectName]" LoopIDToken="2011" ID="150001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.2 ItemInstanceAttributes.InternalObjectId]" LoopIDToken="2011" ID="150002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.3 ItemInstanceAttributes.Id]" LoopIDToken="2011" ID="150003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.4 ItemInstanceAttributes.Version]" LoopIDToken="2011" ID="150004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.5 ItemInstanceAttributes.AttributeIdentifier]" LoopIDToken="2011" ID="150005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.6 ItemInstanceAttributes.AttributeValue]" LoopIDToken="2011" ID="150006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.7 ItemInstanceAttributes.AttributeType]" LoopIDToken="2011" ID="150007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.8 ItemInstanceAttributes.CreatedBy]" LoopIDToken="2011" ID="150008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.9 ItemInstanceAttributes.ModifiedBy]" LoopIDToken="2011" ID="150009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.10 ItemInstanceAttributes.CreatedDate]" LoopIDToken="2011" ID="150010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.11 ItemInstanceAttributes.ModifiedDate]" LoopIDToken="2011" ID="150011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.12 ItemInstanceAttributes.SourceSystem]" LoopIDToken="2011" ID="150012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.13 ItemInstanceAttributes.MasterSystem]" LoopIDToken="2011" ID="150013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.14 ItemInstanceAttributes.IntegrationLockStatus]" LoopIDToken="2011" ID="150014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.15 ItemInstanceAttributes.ItemInstance]" LoopIDToken="2011" ID="150015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:15.16 ItemInstanceAttributes.UdfRowExists]" LoopIDToken="2011" ID="150016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:16.1 UdfContainer.Column]" LoopIDToken="2011" ID="160001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.1 UdfNameValuePairs.Name]" LoopIDToken="2012" ID="170001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:17.2 UdfNameValuePairs.Value]" LoopIDToken="2012" ID="170002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.1 ItemInstanceAttributes.BusinessObjectName]" LoopIDToken="2010" ID="180001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.2 ItemInstanceAttributes.InternalObjectId]" LoopIDToken="2010" ID="180002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.3 ItemInstanceAttributes.Id]" LoopIDToken="2010" ID="180003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.4 ItemInstanceAttributes.Version]" LoopIDToken="2010" ID="180004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.5 ItemInstanceAttributes.AttributeIdentifier]" LoopIDToken="2010" ID="180005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.6 ItemInstanceAttributes.AttributeValue]" LoopIDToken="2010" ID="180006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.7 ItemInstanceAttributes.AttributeType]" LoopIDToken="2010" ID="180007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.8 ItemInstanceAttributes.CreatedBy]" LoopIDToken="2010" ID="180008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.9 ItemInstanceAttributes.ModifiedBy]" LoopIDToken="2010" ID="180009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.10 ItemInstanceAttributes.CreatedDate]" LoopIDToken="2010" ID="180010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.11 ItemInstanceAttributes.ModifiedDate]" LoopIDToken="2010" ID="180011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.12 ItemInstanceAttributes.SourceSystem]" LoopIDToken="2010" ID="180012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.13 ItemInstanceAttributes.MasterSystem]" LoopIDToken="2010" ID="180013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.14 ItemInstanceAttributes.IntegrationLockStatus]" LoopIDToken="2010" ID="180014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.15 ItemInstanceAttributes.ItemInstance]" LoopIDToken="2010" ID="180015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:18.16 ItemInstanceAttributes.UdfRowExists]" LoopIDToken="2010" ID="180016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:19.1 UdfContainer.Column]" LoopIDToken="2010" ID="190001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.1 UdfNameValuePairs.Name]" LoopIDToken="2013" ID="200001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:20.2 UdfNameValuePairs.Value]" LoopIDToken="2013" ID="200002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.1 ItemInstanceAttributes.BusinessObjectName]" LoopIDToken="2010" ID="210001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.2 ItemInstanceAttributes.InternalObjectId]" LoopIDToken="2010" ID="210002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.3 ItemInstanceAttributes.Id]" LoopIDToken="2010" ID="210003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.4 ItemInstanceAttributes.Version]" LoopIDToken="2010" ID="210004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.5 ItemInstanceAttributes.AttributeIdentifier]" LoopIDToken="2010" ID="210005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.6 ItemInstanceAttributes.AttributeValue]" LoopIDToken="2010" ID="210006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.7 ItemInstanceAttributes.AttributeType]" LoopIDToken="2010" ID="210007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.8 ItemInstanceAttributes.CreatedBy]" LoopIDToken="2010" ID="210008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.9 ItemInstanceAttributes.ModifiedBy]" LoopIDToken="2010" ID="210009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.10 ItemInstanceAttributes.CreatedDate]" LoopIDToken="2010" ID="210010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.11 ItemInstanceAttributes.ModifiedDate]" LoopIDToken="2010" ID="210011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.12 ItemInstanceAttributes.SourceSystem]" LoopIDToken="2010" ID="210012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.13 ItemInstanceAttributes.MasterSystem]" LoopIDToken="2010" ID="210013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.14 ItemInstanceAttributes.IntegrationLockStatus]" LoopIDToken="2010" ID="210014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.15 ItemInstanceAttributes.ItemInstance]" LoopIDToken="2010" ID="210015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:21.16 ItemInstanceAttributes.UdfRowExists]" LoopIDToken="2010" ID="210016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:22.1 UdfContainer.Column]" LoopIDToken="2010" ID="220001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:23.1 UdfNameValuePairs.Name]" LoopIDToken="2014" ID="230001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:23.2 UdfNameValuePairs.Value]" LoopIDToken="2014" ID="230002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.1 ItemInstanceAttributes.BusinessObjectName]" LoopIDToken="2010" ID="240001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.2 ItemInstanceAttributes.InternalObjectId]" LoopIDToken="2010" ID="240002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.3 ItemInstanceAttributes.Id]" LoopIDToken="2010" ID="240003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.4 ItemInstanceAttributes.Version]" LoopIDToken="2010" ID="240004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.5 ItemInstanceAttributes.AttributeIdentifier]" LoopIDToken="2010" ID="240005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.6 ItemInstanceAttributes.AttributeValue]" LoopIDToken="2010" ID="240006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.7 ItemInstanceAttributes.AttributeType]" LoopIDToken="2010" ID="240007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.8 ItemInstanceAttributes.CreatedBy]" LoopIDToken="2010" ID="240008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.9 ItemInstanceAttributes.ModifiedBy]" LoopIDToken="2010" ID="240009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.10 ItemInstanceAttributes.CreatedDate]" LoopIDToken="2010" ID="240010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.11 ItemInstanceAttributes.ModifiedDate]" LoopIDToken="2010" ID="240011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.12 ItemInstanceAttributes.SourceSystem]" LoopIDToken="2010" ID="240012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.13 ItemInstanceAttributes.MasterSystem]" LoopIDToken="2010" ID="240013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.14 ItemInstanceAttributes.IntegrationLockStatus]" LoopIDToken="2010" ID="240014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.15 ItemInstanceAttributes.ItemInstance]" LoopIDToken="2010" ID="240015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:24.16 ItemInstanceAttributes.UdfRowExists]" LoopIDToken="2010" ID="240016" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:25.1 UdfContainer.Column]" LoopIDToken="2010" ID="250001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:26.1 UdfNameValuePairs.Name]" LoopIDToken="2015" ID="260001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:26.2 UdfNameValuePairs.Value]" LoopIDToken="2015" ID="260002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.1 Inventories.BusinessObjectName]" LoopIDToken="2016" ID="270001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.2 Inventories.InternalObjectId]" LoopIDToken="2016" ID="270002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.3 Inventories.Id]" LoopIDToken="2016" ID="270003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.4 Inventories.Version]" LoopIDToken="2016" ID="270004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.5 Inventories.BaseQuantity]" LoopIDToken="2016" ID="270005" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.6 Inventories.Quantity]" LoopIDToken="2016" ID="270006" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.7 Inventories.ExternalId]" LoopIDToken="2016" ID="270007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.8 Inventories.CreatedBy]" LoopIDToken="2016" ID="270008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.9 Inventories.ModifiedBy]" LoopIDToken="2016" ID="270009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.10 Inventories.CreatedDate]" LoopIDToken="2016" ID="270010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.11 Inventories.ModifiedDate]" LoopIDToken="2016" ID="270011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.12 Inventories.SourceSystem]" LoopIDToken="2016" ID="270012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.13 Inventories.MasterSystem]" LoopIDToken="2016" ID="270013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.14 Inventories.IntegrationLockStatus]" LoopIDToken="2016" ID="270014" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.15 Inventories.ItemInstance]" LoopIDToken="2016" ID="270015" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.16 Inventories.UnitOfMeasure]" LoopIDToken="2016" ID="270016" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:27.17 Inventories.UdfRowExists]" LoopIDToken="2016" ID="270017" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:28.1 InventoryLocation.BusinessObjectName]" LoopIDToken="2016" ID="280001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.2 InventoryLocation.InternalObjectId]" LoopIDToken="2016" ID="280002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.3 InventoryLocation.Id]" LoopIDToken="2016" ID="280003" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.4 InventoryLocation.Version]" LoopIDToken="2016" ID="280004" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.5 InventoryLocation.LocationIdentifier]" LoopIDToken="2016" ID="280005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.6 InventoryLocation.CreatedBy]" LoopIDToken="2016" ID="280006" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.7 InventoryLocation.ModifiedBy]" LoopIDToken="2016" ID="280007" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.8 InventoryLocation.CreatedDate]" LoopIDToken="2016" ID="280008" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.9 InventoryLocation.ModifiedDate]" LoopIDToken="2016" ID="280009" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.10 InventoryLocation.SourceSystem]" LoopIDToken="2016" ID="280010" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.11 InventoryLocation.MasterSystem]" LoopIDToken="2016" ID="280011" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.12 InventoryLocation.IntegrationLockStatus]" LoopIDToken="2016" ID="280012" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.13 InventoryLocation.Bin]" LoopIDToken="2016" ID="280013" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:28.14 InventoryLocation.UdfRowExists]" LoopIDToken="2016" ID="280014" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:29.1 Inventories.Column]" LoopIDToken="2017" ID="290001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:30.1 InventoryAllocationfulfillFroms.Column]" LoopIDToken="2018" ID="300001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:31.1 InventoryLocationAttributes.Column]" LoopIDToken="2019" ID="310001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:32.1 UdfContainer.Column]" LoopIDToken="2016" ID="320001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:33.1 UdfNameValuePairs.Name]" LoopIDToken="2020" ID="330001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:33.2 UdfNameValuePairs.Value]" LoopIDToken="2020" ID="330002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:34.1 InventoryAllocations.Column]" LoopIDToken="2021" ID="340001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:35.1 VendorItemInstanceXReves.Column]" LoopIDToken="2022" ID="350001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:36.1 FulfillmentLines.Column]" LoopIDToken="2023" ID="360001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:37.1 UdfContainer.Column]" LoopIDToken="2010" ID="370001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:38.1 UdfNameValuePairs.Name]" LoopIDToken="2024" ID="380001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:38.2 UdfNameValuePairs.Value]" LoopIDToken="2024" ID="380002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:39.1 FulfillmentLines.Column]" LoopIDToken="2025" ID="390001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:40.1 VendorItemXReves.InternalObjectId]" LoopIDToken="2026" ID="400001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:40.2 VendorItemXReves.Id]" LoopIDToken="2026" ID="400002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:40.3 VendorItemXReves.UdfRowExists]" LoopIDToken="2026" ID="400003" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:41.1 Vendor.InternalObjectId]" LoopIDToken="2026" ID="410001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.2 Vendor.Id]" LoopIDToken="2026" ID="410002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.3 Vendor.Version]" LoopIDToken="2026" ID="410003" DataType="3" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.4 Vendor.FederalID]" LoopIDToken="2026" ID="410004" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.5 Vendor.ExternalId]" LoopIDToken="2026" ID="410005" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:41.6 Vendor.VendorVisibility]" LoopIDToken="2026" ID="410006" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:41.7 Vendor.UdfRowExists]" LoopIDToken="2026" ID="410007" DataType="12" SubType="3" Size="0" />
+        <Value CalcStr="[R:42.1 Documents.Column]" LoopIDToken="2027" ID="420001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:43.1 VendorItemXReves.Column]" LoopIDToken="2028" ID="430001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:44.1 VendorItemInstanceXReves.Column]" LoopIDToken="2029" ID="440001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:45.1 UdfContainer.Column]" LoopIDToken="2026" ID="450001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:46.1 UdfNameValuePairs.Name]" LoopIDToken="2030" ID="460001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:46.2 UdfNameValuePairs.Value]" LoopIDToken="2030" ID="460002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:47.1 UdfContainer.Column]" LoopIDToken="2026" ID="470001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:48.1 UdfNameValuePairs.Name]" LoopIDToken="2031" ID="480001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:48.2 UdfNameValuePairs.Value]" LoopIDToken="2031" ID="480002" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:49.1 ContainerItems.Column]" LoopIDToken="2032" ID="490001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:50.1 UdfContainer.Column]" LoopIDToken="0" ID="500001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:51.1 UdfNameValuePairs.Name]" LoopIDToken="2033" ID="510001" DataType="0" SubType="0" Size="0" />
+        <Value CalcStr="[R:51.2 UdfNameValuePairs.Value]" LoopIDToken="2033" ID="510002" DataType="0" SubType="0" Size="0" />
+      </Values>
+      <Loops>
+        <Loop LoopName="Row3" LoopIDToken="2000" ParentLoopIDToken="0" />
+        <Loop LoopName="Row5" LoopIDToken="2001" ParentLoopIDToken="0" />
+        <Loop LoopName="Row6" LoopIDToken="2002" ParentLoopIDToken="0" />
+        <Loop LoopName="Row7" LoopIDToken="2003" ParentLoopIDToken="0" />
+        <Loop LoopName="Row8" LoopIDToken="2004" ParentLoopIDToken="0" />
+        <Loop LoopName="Row9" LoopIDToken="2005" ParentLoopIDToken="0" />
+        <Loop LoopName="Row10" LoopIDToken="2006" ParentLoopIDToken="0" />
+        <Loop LoopName="Row11" LoopIDToken="2007" ParentLoopIDToken="0" />
+        <Loop LoopName="Row12" LoopIDToken="2008" ParentLoopIDToken="0" />
+        <Loop LoopName="Row13" LoopIDToken="2009" ParentLoopIDToken="0" />
+        <Loop LoopName="Row14" LoopIDToken="2010" ParentLoopIDToken="0" />
+        <Loop LoopName="Row15" LoopIDToken="2011" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row17" LoopIDToken="2012" ParentLoopIDToken="2011" />
+        <Loop LoopName="Row20" LoopIDToken="2013" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row23" LoopIDToken="2014" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row26" LoopIDToken="2015" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row27" LoopIDToken="2016" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row29" LoopIDToken="2017" ParentLoopIDToken="2016" />
+        <Loop LoopName="Row30" LoopIDToken="2018" ParentLoopIDToken="2016" />
+        <Loop LoopName="Row31" LoopIDToken="2019" ParentLoopIDToken="2016" />
+        <Loop LoopName="Row33" LoopIDToken="2020" ParentLoopIDToken="2016" />
+        <Loop LoopName="Row34" LoopIDToken="2021" ParentLoopIDToken="2016" />
+        <Loop LoopName="Row35" LoopIDToken="2022" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row36" LoopIDToken="2023" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row38" LoopIDToken="2024" ParentLoopIDToken="2010" />
+        <Loop LoopName="Row39" LoopIDToken="2025" ParentLoopIDToken="0" />
+        <Loop LoopName="Row40" LoopIDToken="2026" ParentLoopIDToken="0" />
+        <Loop LoopName="Row42" LoopIDToken="2027" ParentLoopIDToken="2026" />
+        <Loop LoopName="Row43" LoopIDToken="2028" ParentLoopIDToken="2026" />
+        <Loop LoopName="Row44" LoopIDToken="2029" ParentLoopIDToken="2026" />
+        <Loop LoopName="Row46" LoopIDToken="2030" ParentLoopIDToken="2026" />
+        <Loop LoopName="Row48" LoopIDToken="2031" ParentLoopIDToken="2026" />
+        <Loop LoopName="Row49" LoopIDToken="2032" ParentLoopIDToken="0" />
+        <Loop LoopName="Row51" LoopIDToken="2033" ParentLoopIDToken="0" />
+      </Loops>
+      <Addresses />
+      <ConvertItems />
+      <ConvertHeaders />
+      <FieldConversions />
+      <ItemTransTitles />
+      <Docs />
+      <AltDocs />
+      <RowLinks />
+      <FormatFrameworkParameters />
+    </ImportFormat>
   </ImportFormats>
   <ExportFormats FormatType="1" FormatFileSep="0" FormatFileExt="txt">
     <ExportFormat Name="Shopify Order to DataHub Order" FormatCategory="0" FormatID="1f356c2f-fea3-40c9-8bdd-f6c3ac4e2202">
@@ -2547,7 +3423,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
       <RowLinks />
       <FormatFrameworkParameters />
     </ExportFormat>
-    <ExportFormat Name="DataHub Fulfilment to Shopify Fulfilment" FormatCategory="0" FormatID="6df43012-e604-45e1-a535-d65010ebef4c">
+    <ExportFormat Name="DataHub Fulfillment to Shopify Fulfillment" FormatCategory="0" FormatID="6df43012-e604-45e1-a535-d65010ebef4c">
       <Type>1</Type>
       <TPName />
       <FormatIdentifierRow>-1</FormatIdentifierRow>
@@ -2602,7 +3478,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
       <Rows>
         <Row Name="StartOfFile" Description="" RowType="0" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="-1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
           <Columns>
-            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="test" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
         <Row Name="fulfillment" Description="" RowType="1" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
@@ -3020,7 +3896,7 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
             <Column Title="MasterSystem" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="IntegrationLockStatus" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="ItemInstance" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
-            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="UdfRowExists" DataType="12" SubType="3" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="false" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
         <Row Name="UdfContainer" Description="ItemInstances\ItemInstanceAttributes\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="14" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
@@ -3292,6 +4168,216 @@ v1.0.0.4 contains Shopify Product to DH mapping with custom Inventory row mappin
           <Columns>
             <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
             <Column Title="Value" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+      </Rows>
+      <Values />
+      <Addresses />
+      <ConvertItems />
+      <ConvertHeaders />
+      <FieldConversions />
+      <ItemTransTitles />
+      <Docs />
+      <FormatPartners />
+      <AltDocs />
+      <RowLinks />
+      <FormatFrameworkParameters />
+    </ExportFormat>
+    <ExportFormat Name="DataHub Item to Shopify Product" FormatCategory="0" FormatID="4896ebc1-9e61-4108-b538-55d9d0fc6941">
+      <Type>1</Type>
+      <TPName />
+      <FormatIdentifierRow>-1</FormatIdentifierRow>
+      <FormatIdentifierCell>-1</FormatIdentifierCell>
+      <FormatIdentifierStr />
+      <FormatIdentifierExactMatch>False</FormatIdentifierExactMatch>
+      <SplitFile>False</SplitFile>
+      <HeaderFileIDCol>0</HeaderFileIDCol>
+      <HeaderFileColCount>0</HeaderFileColCount>
+      <ItemFileIDCol>0</ItemFileIDCol>
+      <ItemFileColCount>0</ItemFileColCount>
+      <HeaderIncluded>False</HeaderIncluded>
+      <HeaderMustBeInOrder>False</HeaderMustBeInOrder>
+      <LinkTransName />
+      <LinkTransIDColStr />
+      <LinkPartnerColStr />
+      <LinkStoreNumColStr />
+      <LinkTransIDColStr2 />
+      <IgnoreRow>0</IgnoreRow>
+      <DocIDRow>-1</DocIDRow>
+      <DocIDCol>-1</DocIDCol>
+      <AuxFormatOnly>False</AuxFormatOnly>
+      <AccountIDCol>0</AccountIDCol>
+      <AccountIDColStr />
+      <ItemIDCol>0</ItemIDCol>
+      <ItemIDRow>0</ItemIDRow>
+      <ItemIDColStr />
+      <Sequential>False</Sequential>
+      <ItemCountRow>0</ItemCountRow>
+      <ItemCountPosition>0</ItemCountPosition>
+      <TermsDescriptionColName />
+      <TermsStartDateColName />
+      <UserChargeAmountCalcStr />
+      <IntegrationType>0</IntegrationType>
+      <IntegrationFormat>0</IntegrationFormat>
+      <IncludeEmptyColumnValues>False</IncludeEmptyColumnValues>
+      <DisableCrossRowLooping>False</DisableCrossRowLooping>
+      <SingleTransactionDocument>True</SingleTransactionDocument>
+      <OverrideFileSep>5</OverrideFileSep>
+      <OverrideFormatType>1</OverrideFormatType>
+      <OverrideFileExt>json</OverrideFileExt>
+      <OverrideFieldDelim />
+      <RepeatHeaderInfo>False</RepeatHeaderInfo>
+      <DocIDToken>0</DocIDToken>
+      <RowIDRow>-1</RowIDRow>
+      <RowID>-1</RowID>
+      <RowIDToken>0</RowIDToken>
+      <StoreIDRow>-1</StoreIDRow>
+      <StoreID>-1</StoreID>
+      <TransTypeIDStr />
+      <CompanyIDColStr />
+      <Rows>
+        <Row Name="StartOfFile" Description="" RowType="0" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="-1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="product" Description="" RowType="1" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="0" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="title" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="body_html" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="vendor" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="product_type" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="created_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="handle" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="updated_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="published_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="template_suffix" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="published_scope" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="tags" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="TotalVariants" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="variants" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="title" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="price" DataType="4" SubType="0" Size="0" ItemLevel="False" Quoted="True" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="sku" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="position" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="inventory_policy" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="compare_at_price" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="fulfillment_service" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="inventory_management" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="option1" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="option2" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="option3" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="created_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="updated_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="taxable" DataType="12" SubType="3" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="barcode" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="grams" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="image_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="weight" DataType="4" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="weight_unit" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="inventory_item_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="inventory_quantity" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="old_inventory_quantity" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="requires_shipping" DataType="12" SubType="3" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="options" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="name" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="position" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="images" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="position" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="created_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="updated_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="alt" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="width" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="height" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="src" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="presentment_prices" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="2" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="selectedOptions" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="2" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="name" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="value" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="price" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="5" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="amount" DataType="4" SubType="0" Size="0" ItemLevel="False" Quoted="True" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="compare_at_price" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="5" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="currency_code" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="amount" DataType="4" SubType="0" Size="0" ItemLevel="False" Quoted="True" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="values" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="3" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="values" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="4" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="variant_ids" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="image" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="product_id" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="position" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="created_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="updated_at" DataType="11" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="alt" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="True" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="width" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="height" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="src" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="admin_graphql_api_id" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="variant_ids" Description="" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="11" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="variant_ids" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Inventory" Description="" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="1" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="Column" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="InventoryLevels" Description="product\Inventory" RowType="2" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="13" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1" IncludeUnmappedLoop="False">
+          <Columns>
+            <Column Title="AvailableAdjustment" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="AvailableSet" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+            <Column Title="Available" DataType="3" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
+          </Columns>
+        </Row>
+        <Row Name="Location" Description="product\Inventory\InventoryLevels\" RowType="7" LoopID="0" ParentLoopID="0" LoopIDToken="0" ParentLoopIDToken="0" ChildOf="14" Cond1CalcStr1="" Cond1CalcStr2="" Cond1Condition="0" Cond2CalcStr1="" Cond2CalcStr2="" Cond2Condition="0" AlwaysProcessChildren="True" ProcessAllLoopEntries="False" NodePosition="-1">
+          <Columns>
+            <Column Title="Name" DataType="0" SubType="0" Size="0" ItemLevel="False" Quoted="False" NullIfEmpty="False" CalcStr="" SubLoop="0" IsAttribute="False" HasAttributes="False" AttributeName="" AttributeValue="" LoopIDToken="0" LoopKey="False" />
           </Columns>
         </Row>
       </Rows>
